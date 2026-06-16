@@ -1,2 +1,2 @@
 # world-peace
-Need help? Post an issue.
+How can we help you?
