@@ -13,7 +13,7 @@ A coordination layer is the simplest possible structure for a community to expre
 
 The protocol is substrate-independent. It runs on a distributed OS with cryptographic identity. It runs on a phone with intermittent connectivity. It runs on paper passed between hands in a market. It runs on prayer cards in a church. The shape is the same. The substrate is whatever is available.
 
-This is not a charity model. It is not top-down aid. It is a self expressing its own agency — its own needs and capabilities — and finding its own alignments. The outside world can participate but it cannot own the protocol or control the routing. That self can define a person, a family, all of humanity.
+This is not a charity model. It is not top-down aid. It is a community expressing its own agency — its own needs and capabilities — and finding its own alignments. The outside world can participate but it cannot own the protocol or control the routing.
 
 ---
 
@@ -197,6 +197,38 @@ The coordination layer is a live map of agency gaps and agency extensions in a c
 That last category is the only place where outside help is clearly needed — not as a general offer of aid, but as a specific response to a specific expressed gap that the community itself has identified.
 
 This inverts the aid model. The community does not receive what the outside world decides it needs. It expresses what it knows it needs and invites specific responses.
+
+---
+
+## Non-locality — the shortest path is rarely the obvious one
+
+If you want to help women in Afghanistan, your best option is probably not to send something to Afghanistan.
+
+A woman in Kabul has a sister in Los Angeles. The sister came first, found work, sends money home when she can. The family in Kabul depends on that remittance. The sister's conditions in Los Angeles — her housing stability, her income, her access to legal status, her children's schooling — directly determine how much support reaches the family that couldn't leave.
+
+Improving the sister's conditions in Los Angeles is probably the single most effective intervention available for the family in Kabul. It is also the one most people overlook, because it doesn't look like helping Afghanistan.
+
+And it is not just the money. It is what the sister carries back through the network beyond money. When the sister in Los Angeles builds real capability — earns respect in her community, develops skills, participates in civic life, raises children who move through the world with confidence — she carries that back too. In how she speaks to her family. In what she believes is possible for her nieces. In what she refuses to accept as inevitable. Agency is contagious in a way that aid is not. Aid arrives from outside and confirms that the outside is where capability lives. Agency demonstrated by someone you know and love and recognize as yourself — that lands differently. That changes what a woman in Kabul believes is possible for her daughter.
+
+Foreign aid can close a material gap. It cannot build the felt sense that you are capable, that your community is capable, that the future your children deserve is something you can move toward. That only comes from community. From people who know each other, trust each other, and have watched each other grow. The sister in Los Angeles becoming more capable is not a proxy for helping Afghanistan. It is the actual mechanism. She is the community. She is where the agency lives and grows and travels back.
+
+This is non-locality. The point of highest leverage for a problem is often not at the location of the problem. It is somewhere in the network that feeds into that location — a node that is more accessible, less dangerous, and more responsive to outside support.
+
+The coordination layer makes this visible. A refugee community in a city is a domain. That domain has needs and capabilities. It also has relational structure extending back to the places people came from. The remittance flows, the communication channels, the family networks — these are live connections between the local domain and the distant one. Supporting the local domain strengthens those connections.
+
+**The signal travels the network.** A need posted anonymously in Kabul — girls cannot access education — may find its most effective response not in Kabul but in the diaspora community three cities away. Someone there knows someone. Has resources. Can act in ways that reach back through the network.
+
+**This inverts the standard aid model again.** The standard model tries to reach the problem directly — send resources to the location of the need. This is often the hardest path: access is blocked, infrastructure is broken, trust is absent, authoritarian structures intercept. The non-local path follows the network instead. It strengthens nodes that are already connected to the problem location and already trusted by the people there.
+
+**In practice this means:**
+
+- The most impactful thing a community in Los Angeles can do for families in Afghanistan is take care of Afghans in Los Angeles — their legal status, their housing, their children's education, their ability to earn and send home.
+- The most impactful thing a community in Miami can do for families in Haiti is take care of Haitians in Miami — same logic, same network structure.
+- A coordination domain that includes both the diaspora community and the origin community makes these connections legible. The need in Kabul and the capability in Los Angeles can find each other through the network even when the direct path is blocked.
+
+**The network is the system.** People are not isolated at their geographic location. They are nodes in relational networks that span distances. Those networks already carry resources, information, and care. The coordination layer doesn't create those networks. It makes them legible and gives them a protocol.
+
+This also means that helping your local refugee community is not a consolation prize when you can't reach the origin country. It is often the primary intervention. The shortest path to the problem runs through the people already connected to it who are reachable.
 
 ---
 
