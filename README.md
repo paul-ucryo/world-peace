@@ -66,20 +66,40 @@ This is what makes the protocol scale in both directions — down to one person 
 
 A person who cannot see their own needs clearly cannot help a community see its needs. Self-coordination is not selfish. It is the prerequisite.
 
-**The anonymity is structural, not policy.** It is not that the system promises not to track you. It is that the system has no mechanism that requires tracking. A need card with no name has no name to track. A response that comes through a trusted intermediary leaves no digital trail. The privacy is in the architecture, not in the terms of service.
+**The anonymous need is not a request for direct help. It is a signal about systemic dysfunction.**
+
+```
+need:    a child in this neighborhood cannot access reading materials
+where:   market street, north end
+```
+
+This card is not asking someone to hand over books. It is telling the community: there is a crack in the system here. A child is being left behind. Something is not working. The community reads that signal and asks — why does this crack exist. What is the structure that produced it. What can change so the next child doesn't fall through the same gap.
+
+This is a completely different relationship between the need and the response. A direct-help model says: here is a person with a problem, give them the thing. An anonymous systemic model says: here is a problem that exists in this community, find where it lives in the structure and address it there.
+
+The distinction matters enormously in practice:
+
+- Direct help creates dependency. Systemic response creates change.
+- Direct help requires identifying the person. Systemic response does not — the signal is enough.
+- Direct help can be withheld as leverage. Systemic response cannot — the community is responding to its own dysfunction, not doing a favor for an individual.
+- Direct help is exhausting to sustain. Systemic response is self-reinforcing — closing a crack means fewer signals of that type over time.
+
+**The anonymity protects both the person and the integrity of the signal.** If the need is attached to a name, the response orients toward that person. The community tries to help them specifically. The systemic question — why does this gap exist — gets bypassed. The crack stays open. The next child falls through it.
+
+When the need is anonymous, there is no person to orient toward. The only available response is systemic. The community has to look at itself.
+
+**The anonymity is structural, not policy.** It is not that the system promises not to track you. It is that the system has no mechanism that requires tracking. A need card with no name has no name to track. The privacy is in the architecture, not in the terms of service.
 
 On the digital layer this is enforced cryptographically — you can post under a community identifier with no link to your personal key. On the physical layer it is enforced by the card itself — paper with no name on it is anonymous.
 
-**What this enables that identified coordination cannot:**
+**What this enables:**
 
-- A woman in Afghanistan can post a need for her daughter without her name attached. The need travels through the trusted-person network. Help arrives. No one outside the immediate transaction knows who the family is.
-- A man who needs mental health support can post a need in a community where admitting that need would carry stigma. The need is real. The stigma doesn't attach because the person doesn't attach.
-- A community can collectively acknowledge a problem — violence, hunger, illness — that no individual family wants to be seen as having. The problem becomes visible. Help can arrive. No one is marked.
-- Someone with a capability they want to offer anonymously — money, materials, skills — can do so without creating obligation or relationship. The capability closes the gap and disappears.
+- A woman in Afghanistan can signal that girls in her neighborhood are being denied education without identifying herself or her daughter. The signal reaches the community. The systemic question — what is blocking this — becomes visible without exposing anyone.
+- A community can acknowledge that mental health support doesn't exist without anyone having to say they need it personally. The gap is in the system. The system can address it.
+- A neighborhood can surface patterns — the same type of need appearing repeatedly — without any individual bearing the cost of being seen as the one who has that problem.
+- The coordination history becomes a legible map of where the community's systems are failing its members. Not a ledger of who needed what. A picture of what the community needs to fix about itself.
 
-**The response is also anonymous.** Someone who responds to a need does not need to identify themselves. They do not need credit. They do not need the person they helped to know they helped. The coordination history records that a need was posted and a response came. Not who. The gap closed. That is enough.
-
-This is the prayer card model taken seriously. The card externalizes the need. The community witnesses it. Someone responds because they can, not because they are obligated or tracked or rewarded. The response is an act of agency, freely given, in a system designed to make that easy.
+**The response is also not personal.** Someone who reads an anonymous need card and can act on it is not helping an individual. They are participating in closing a systemic crack. They may never know who posted the card. They do not need to. The gap in the system is smaller. That is the outcome.
 
 ---
 
