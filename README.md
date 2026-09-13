@@ -58,7 +58,7 @@ This is not a limitation of the protocol. It is a feature. It means:
 - Responding to a need carries no obligation. You are not entering a relationship. You are not creating a debt. You are closing a gap.
 - The coordination history is a picture of what problems existed and what capabilities responded — not a ledger of who owed what to whom.
 
-**The self is not the individual person.** The self that posts a need can be a person, a family, a neighborhood, a community, a project, a domain of any size. The protocol doesn't care. A need posted by a city is the same structure as a need posted by one person. The same card format. The same routing. The same anonymous response mechanism.
+**The self is not the individual person.** The self that posts a need can be a person, a family, a neighborhood, a community, a project, a domain of any size. The protocol doesn't care. A need posted by a city is the same structure as a need posted by one person to their own fridge as reminder. The same card format. The same routing. The same signal mechanism drawing attention to something that needs to resolve.
 
 This is what makes the protocol scale in both directions — down to one person coordinating their own needs and capabilities across different domains of their life, up to a global federation of communities expressing what they have and what they lack.
 
