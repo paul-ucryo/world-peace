@@ -1,0 +1,114 @@
+[] -- basically ls
+[item] --lookup query
+: --bind
+_.1.text:here's some stuff about reference
+_.1.url:addr.com
+_.1.dscr:
+_.clock.dob:
+_.clock.dod:
+_.clock.access:
+_.clock.update:
+_.clock.phase: --dev|mature|depricated|idle|cache|connected --clock oriented policy rules
+/proj1.clock.dob:
+/proj1.clock.ticketid.shipdate[string]:
+/proj1.clock.ticketid.shipdate.est:
+sectname.tx[text]:
+now the question is how do i @1{reference} text
+sectname.tx._./:
+
+person: _.address --i think person is actually an account
+_.acct./{domain}:{label}
+_.acct.{domain}:id|sshkey|pubkey|wiregaurd
+_.cert.{domain}:pw|key|signature
+
+_.rss: --ticket/alert system. 
+
+acct./paul[email.work]:{acct.label}.example.com
+acct./{domain}.{label}[rss.{new.email}]
+{rss.new} --this is run with the context of cwd.
+        'caps':{
+            'gear':{},
+            'pitch':{},
+            'fastener':{},
+            'driven':{},
+            'drives':{},
+            '4d':{},
+            },
+        },
+    'item':{
+    'label':{'name':'','description':''},
+        'txn':{unit:{},'qty':{},'rate':{}},
+        'supports':
+        'recommends':
+        'requires':
+            'cam':{'solidworks':{}},
+        'provides':
+            'mass':
+            'fastener':
+            'pitch':
+            'driven':{'shcs':'8/32'},
+            '4d':{'solidworks':
+            'lwd':
+            'rohs':
+        'replaces':
+
+_.acct: --identity and gateway/contact
+_.policy: --cert
+_.clock
+    .phase:
+        .dev:
+        .mature:
+        .idle:
+        .stale:
+        .close:
+_./ --project/module ~= mount
+_.rss: --ticket/alert system
+    .principal:
+        .dev:
+        .stake:
+    .audit:
+        .recorder:
+        .cert':
+    .route:
+        .stake: --sales
+        .rss: --alerts
+        .dev: --design/engineering
+    .clock:
+_.product: --catalog of transactionable identities
+_.txn:
+    .tax:
+    .currency:
+    .clock:
+    .ship:
+        .dst[acct]:
+        .src[acct]:
+    .bill[acct]:
+        .dst[acct]:
+        .src[acct]:
+    .cart:
+        .item:
+        .src:
+        .dst:
+        .dscr:
+        .qty:
+        .units:
+        .rate:
+        .tax:{acct}
+    .est:
+    .qo:
+    .po:
+    .so:
+    .wo:
+    .inv:
+    .paym:
+    .rect:
+    .inventory:
+_.doc:
+    .label:
+    .section:
+        .label:
+        .dscr:
+        .text:
+_.view:
+    .dom:
+    .cad:
