@@ -13,7 +13,7 @@ A coordination layer is the simplest possible structure for a community to expre
 
 The protocol is substrate-independent. It runs on a distributed OS with cryptographic identity. It runs on a phone with intermittent connectivity. It runs on paper passed between hands in a market. It runs on prayer cards in a church. The shape is the same. The substrate is whatever is available.
 
-This is not a charity model. It is not top-down aid. It is a community expressing its own agency — its own needs and capabilities — and finding its own alignments. The outside world can participate but it cannot own the protocol or control the routing.
+This is not a charity model. It is not top-down aid. It is a self expressing its own agency — its own needs and capabilities — and finding its own alignments. The outside world can participate but it cannot own the protocol or control the routing. That self can define a person, a family, all of humanity.
 
 ---
 
