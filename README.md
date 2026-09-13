@@ -242,6 +242,11 @@ And the most gangster thing you can do is take care of the things you love.
 
 Not loudly. Not in opposition. Just — persistently, quietly, without asking permission — build capability in the people around you. A community that takes care of itself doesn't need the gang's permission to exist. That's what every exclusionary governance structure is actually afraid of. Not the protest. Not the opposition. The community that simply stops needing them.
 
+**Letting someone speak for you is a capability.** Americans who let DJT speak for them have let their allies see exactly where their commitments lie. Not where they said their commitments were. Where they actually are, revealed by who they handed the voice to. Allies update their models. Enemies update their models. The world is watching who you let represent you and drawing the only conclusion available.
+
+This is not about blame. It is about legibility. Silence is not neutral. Delegation is not passive. When you do not claim your own voice, someone claims it for you — and everything they say with it is attributed to you. The coordination layer is partly an answer to this: a way for people to express their own needs and capabilities directly, without intermediaries who may not share their values or represent their actual commitments. You post your own card. No one speaks for you. What you care about is legible in what you put into the system, not in who you failed to stop.
+
+
 ---
 
 ## Alignment with the shape of things
