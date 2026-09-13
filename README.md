@@ -232,6 +232,18 @@ This also means that helping your local refugee community is not a consolation p
 
 ---
 
+## Governance by gang rule
+
+The Taliban, the governance structures in Haiti, and the RNC are governance by gang rule — control through exclusion, deciding who counts and who doesn't, who gets protected and who gets left behind. The mechanism is always the same: monopolize care, monopolize capability, and use that monopoly to enforce who has standing and who doesn't.
+
+But a competent gangster is just democracy. The gang that actually takes care of its people, builds their capability, expands what they can do — that's just a community that works. The difference between a gang and a community is not the structure. It is whether the structure is built on exclusion or on expansion of agency.
+
+And the most gangster thing you can do is take care of the things you love.
+
+Not loudly. Not in opposition. Just — persistently, quietly, without asking permission — build capability in the people around you. A community that takes care of itself doesn't need the gang's permission to exist. That's what every exclusionary governance structure is actually afraid of. Not the protest. Not the opposition. The community that simply stops needing them.
+
+---
+
 ## Alignment with the shape of things
 
 The universe, as far as we can tell, does not have a preferred center. Every point is equivalent. Every observation is local. Meaning emerges from relationship, not from hierarchy.
