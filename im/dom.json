@@ -1,0 +1,96 @@
+"rsrc":{
+    "#0":"hb.json is the template file basically lib",
+    "#1":"hb.js is the json data file",
+    "url":"_.hb //_->self,hb->general journal",
+    "lib":"doc.report //lib -> basis",
+    "label":"Handbook",
+    "desc":"A hitchhiker's guide to the galaxy.",
+    "ico":"svg(Don't Panic)",
+    "rec.0":{
+        "env":{
+            "#1":"Head -> How the system is setup to interact with content.",
+        }
+        "content":{},
+        "io":{ 
+            "#0":"io->foot-> appendix,reference,cli",
+            "#1":"Head -> How the content connects participates with other things.",
+        },
+        "table":{},
+        "._":{
+            "section.name":{"label":},
+            "schedule.name0":{},
+            "gateway.name1":{},
+            "email":{},
+            "budget":{},
+        },
+        "layout":{
+            "head":{
+                "ico":"",
+                "url":"",
+                "toc":"",
+            },
+            "foot":{
+                "alert":"",
+            },
+            "scratch":{},
+            "re":{},
+            "im":{
+                "0.namey":"sec.0",
+                "1.namex":"sec.5",
+            },
+        },
+    },
+    "catalog":{
+        "filter":{},
+        "item":{},
+        "key":{},
+        "value":{},
+    },
+},
+"me":{
+    "layout":{
+    },
+    "sec.0":{
+        "label":"handbook entry",
+        "desc":"A handbook entry",
+        "content":"This is the content rendered underneith the heading defined by label and/or desc depending on environments rendering rules or output device.",
+        "sec.0":{
+            "label":"subsection 1 label",
+            "desc":"",
+            "content":"",
+        },
+        "table.0":{
+            "label":"subsection 1 label",
+            "desc":"",
+            "column.0":{
+                "label":"",
+                "sort":{"order":"signint","fn":""},
+                "desc":"",
+                "position":"signedint",
+                "record":"string format"
+            }, 
+        },
+    },
+    "sec.5":{
+        "label":"entry 2",
+        "desc":"A handbook entry",
+        "content":"This is the content rendered underneith the heading defined by label and/or desc depending on environments rendering rules or output device.",
+        "sec.0":{
+            "label":"subsection 1 label",
+            "desc":"",
+            "content":"",
+        },
+        "table.0":{
+            "label":"subsection 1 label",
+            "desc":"",
+            "column.0":{
+                "label":"",
+                "sort":{"order":"signint","fn":""},
+                "desc":"",
+                "position":"signedint",
+                "record":"string format"
+            }, 
+        },
+    },
+},
+}
