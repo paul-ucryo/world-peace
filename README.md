@@ -19,21 +19,67 @@ This is not a charity model. It is not top-down aid. It is a community expressin
 
 ## The primitive
 
-A coordination entry has three parts:
+A coordination entry has two required parts and one optional:
 
 ```
-who:     an identity (as much or as little as is safe to share)
 what:    a need or a capability
 where:   a context (place, domain, time)
+who:     optional — as much or as little as is safe or useful to share
 ```
 
 That is the whole thing. Everything else is composition over this primitive.
 
-A need is: I have this gap. Can anyone help close it.
-A capability is: I have this to offer. Does anyone need it.
+A need is: this gap exists. Can anyone help close it.
+A capability is: this is available. Does anyone need it.
 A match is: a need and a capability whose shapes fit.
 
 The coordination layer routes needs to capabilities and capabilities to needs. It does not judge them. It does not rank them. It does not monetize the routing.
+
+**Who is optional because the problem doesn't require an owner.**
+
+---
+
+## Anonymity and the self layer
+
+The deepest design choice in this protocol: identity is not required for coordination to work.
+
+A need card does not need to say who has the need. It needs to say what the need is and where it exists. Someone can respond to a need without knowing who posted it. No one needs to know who responded. The match happens at the level of the problem and the capability, not at the level of the people.
+
+```
+need:    there is a child in this neighborhood who needs reading materials
+where:   market street, north end
+```
+
+No name. No family. No identifying information. The need is real. Anyone who can respond, can. The child gets reading materials. No one tracked anyone.
+
+This is not a limitation of the protocol. It is a feature. It means:
+
+- Posting a need carries no social cost. You are not admitting weakness. You are not marking yourself as vulnerable. You are describing a condition that exists.
+- Responding to a need carries no obligation. You are not entering a relationship. You are not creating a debt. You are closing a gap.
+- The coordination history is a picture of what problems existed and what capabilities responded — not a ledger of who owed what to whom.
+
+**The self is not the individual person.** The self that posts a need can be a person, a family, a neighborhood, a community, a project, a domain of any size. The protocol doesn't care. A need posted by a city is the same structure as a need posted by one person. The same card format. The same routing. The same anonymous response mechanism.
+
+This is what makes the protocol scale in both directions — down to one person coordinating their own needs and capabilities across different domains of their life, up to a global federation of communities expressing what they have and what they lack.
+
+**Self-coordination as the base case.** Before it is a community tool it is a personal tool. A person has needs in their work domain, their home domain, their health domain. They have capabilities in some of those domains that could serve others. The protocol lets them make that legible — to themselves first, then to whatever larger context they choose to share it with.
+
+A person who cannot see their own needs clearly cannot help a community see its needs. Self-coordination is not selfish. It is the prerequisite.
+
+**The anonymity is structural, not policy.** It is not that the system promises not to track you. It is that the system has no mechanism that requires tracking. A need card with no name has no name to track. A response that comes through a trusted intermediary leaves no digital trail. The privacy is in the architecture, not in the terms of service.
+
+On the digital layer this is enforced cryptographically — you can post under a community identifier with no link to your personal key. On the physical layer it is enforced by the card itself — paper with no name on it is anonymous.
+
+**What this enables that identified coordination cannot:**
+
+- A woman in Afghanistan can post a need for her daughter without her name attached. The need travels through the trusted-person network. Help arrives. No one outside the immediate transaction knows who the family is.
+- A man who needs mental health support can post a need in a community where admitting that need would carry stigma. The need is real. The stigma doesn't attach because the person doesn't attach.
+- A community can collectively acknowledge a problem — violence, hunger, illness — that no individual family wants to be seen as having. The problem becomes visible. Help can arrive. No one is marked.
+- Someone with a capability they want to offer anonymously — money, materials, skills — can do so without creating obligation or relationship. The capability closes the gap and disappears.
+
+**The response is also anonymous.** Someone who responds to a need does not need to identify themselves. They do not need credit. They do not need the person they helped to know they helped. The coordination history records that a need was posted and a response came. Not who. The gap closed. That is enough.
+
+This is the prayer card model taken seriously. The card externalizes the need. The community witnesses it. Someone responds because they can, not because they are obligated or tracked or rewarded. The response is an act of agency, freely given, in a system designed to make that easy.
 
 ---
 
