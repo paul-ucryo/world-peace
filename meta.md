@@ -158,6 +158,8 @@ The key difference from most of these: **the emphasis is on reasoning over multi
 
 ## Open Questions
 
+**These are less questions and more design strategies. And i don't think the document really described well enough how this interleves coordinated data. Like part numbers can be derived by whoever is working on a collaborative project, generating real final numbers without needing to check what other users are doing. And how you personally generated the number/data can be kept private, open to the public as the meta data chennal, or a mix where the company owns/access the meta data which is not available to the public. Either way, it lets you create anything you would interact with as a hash, but a hash that stores content and you control who can access that content.
+
 - **Key loss** — orphaned namespace if private key is lost; recovery strategy needed
 - **Key rotation** — how to migrate an identity without breaking existing attribution
 - **Human readability** — cryptographic handles need an alias layer for operational use
