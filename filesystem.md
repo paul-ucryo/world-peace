@@ -353,6 +353,63 @@ The hide/show configuration is just which generator you called when the file was
 
 ---
 
+## Embedded Interpreters
+
+`_py`, `_sh`, `_js`, `_sql` are just generators. Write a program as file contents, read stdout as the result. FUSE is the interpreter.
+
+```
+write("_py", "import os\nprint(os.listdir('.'))")
+read("_py") → ["a7f2k9p3q1", "m4x8n2v6j5", ...]
+```
+
+No imports. No SDK. No subprocess. Just file IO — because everything is a file.
+
+### Available Interpreters
+
+| File | Interpreter | Properties |
+|---|---|---|
+| `_py` | Python | General purpose, full stdlib |
+| `_sh` | Shell | System calls, pipe composition |
+| `_js` | Node | Async, event-driven |
+| `_sql` | SQL | Query the flat store as a database |
+| `_lua` | Lua | Lightweight, embeddable, sandboxable |
+| `_wasm` | WASM | Sandboxed execution, portable |
+
+### Interpreters Compose With Everything
+
+A python script that calls a generator by opening a file:
+
+```
+write("_py", "
+import json, time
+store_id = open('_cipher.generate').read()
+print(json.dumps({'id': store_id, 'ts': time.time()}))
+")
+read("_py") → {"id": "m4x8n2v6j5", "ts": 1718394231.4}
+```
+
+No special API. The script reaches into the filesystem the same way any program does. Generators, cascades, socket endpoints — all reachable as files from inside the interpreter.
+
+### Interpreter Trust is a Capability
+
+Because `_read` and `_save` define per-directory behavior, interpreter availability is itself a capability:
+
+```
+/sandbox/
+  _save  ← only permit _lua, _wasm writes (sandboxed runtimes)
+  _read  ← log all reads, return stdout
+
+/trusted/
+  _save  ← permit _py, _sh, require signing with trusted key
+  _read  ← unrestricted
+```
+
+Writing `_py` to `/sandbox/` is rejected. Writing `_wasm` to `/trusted/` executes but logs. The security boundary is already there — LUKS and ZFS define which directories you can reach, and `_read`/`_save` define what you can run inside them.
+
+The filesystem is a **polyglot runtime**. The security model is cryptographic. The interface is always just files.
+
+---
+
 ## What This Is
 
 | Layer | What it looks like | What it actually is |
@@ -370,6 +427,7 @@ The hide/show configuration is just which generator you called when the file was
 | Read result | File content | Return value |
 | Cascades | Automatic updates | Reactive dataflow |
 | Socket endpoint | A file in the catalog | Programmable remote behavior |
+| `_py`, `_sh`, `_js` | Files you write programs into | Embedded interpreters, stdout is the return value |
 | FUSE layer | Filesystem driver | The runtime |
 
 The filesystem is not storing programs. The filesystem **is** the program. The security is not enforced by policy. It is the structure. The permissions are not configured. They are the cipher.
@@ -414,6 +472,8 @@ This lives **underneath** the existing world. SolidWorks doesn't need to know. A
 - **The catalog is a view** — computed from your key set, not a fixed directory
 - **Permissions are the cipher** — hide/show is which generator you called, not a policy you configured
 - **The namespace is distributed** — VDNS resolves across nodes, key-gated, no central registry
+- **The filesystem is a polyglot runtime** — any interpreter is just a generator, scoped by capability
+- **Programs are arguments** — write code as file contents, read stdout as return value
 
 ---
 
@@ -433,3 +493,7 @@ This lives **underneath** the existing world. SolidWorks doesn't need to know. A
 - **VDNS resolution conflicts** — if two nodes sign the same logical name with different keys, how is canonical identity established?
 - **Capability revocation** — revoking a key orphans all filenames signed with it; what is the migration path?
 - **View consistency** — if the catalog is a per-key view, how do you reason about the state of the store as a whole?
+- **Interpreter sandboxing** — how do you bound what `_py` or `_sh` can reach from inside the runtime?
+- **Execution time limits** — what does FUSE do with a `_py` write that runs forever?
+- **Interpreter versioning** — which python, which node? How is the runtime environment pinned and reproduced?
+- **Side effects** — an interpreter that writes back to the store triggers cascades; how is that bounded?
