@@ -160,6 +160,96 @@ class GW:
         return gw
 
 
+
+# --- handbook ---
+# .hb files are the intent layer
+# attached to any object - domain, directory, file, action
+# freeform but timestamped - the why not the what
+# meeting notes, dreams, proprietary app context, fs action rationale
+# no schema - just write. git versions it. the address system finds it.
+
+import datetime
+
+HB_FILENAME = ".hb"
+
+
+def hb_path(target):
+    """
+    .hb for any target.
+    directory: inside it as .hb
+    file: sibling .hb in same directory
+    """
+    if target.is_dir():
+        return target / HB_FILENAME
+    return target.parent / HB_FILENAME
+
+
+def hb_append(target, entry, author="self"):
+    """
+    Append a timestamped entry to the handbook for this target.
+    Creates .hb if it doesn't exist. No schema enforced - freeform.
+    """
+    hb = hb_path(target)
+    timestamp = datetime.datetime.now(datetime.timezone.utc).isoformat()
+    block = f"\n---\n{timestamp} [{author}]\n{entry.strip()}\n"
+    with hb.open("a") as f:
+        f.write(block)
+
+
+def hb_read(target):
+    """Full handbook for a target. None if absent."""
+    hb = hb_path(target)
+    if hb.exists():
+        return hb.read_text()
+    return None
+
+
+def bootstrap_hb(domain_path, domain_name):
+    """
+    Seed the .hb for a new domain.
+    Structural entry only - user fills in real intent.
+    """
+    addr_file = domain_path / "gw" / "address"
+    address = addr_file.read_text().strip() if addr_file.exists() else "pending"
+    hb_append(
+        domain_path,
+        f"domain: {domain_name}\naddress: {address}\nintent: (what is this domain for)",
+        author="fed"
+    )
+
+# --- future: hb-driven git commits ---
+# FUSE can intercept every write operation in a domain.
+# rather than committing on every write (noisy), a callback decides:
+#   - time since last commit
+#   - number of changes accumulated
+#   - explicit flush signal
+# when commit triggers, read the domain .hb for the most recent entry
+# and use that as the commit message.
+# this means:
+#   - the journal IS the commit log
+#   - intent written in .hb flows automatically into version history
+#   - no separate "write a commit message" step
+#   - dreams, meeting notes, rationale all become part of the git record
+#
+# sketch:
+#   def on_write(path):
+#       domain = find_domain(path)
+#       domain.change_buffer.add(path)
+#       if should_commit(domain):
+#           hint = hb_latest_entry(domain.path)
+#           git_commit(domain.path, message=hint or "fed: auto-commit")
+#
+#   def hb_latest_entry(domain_path):
+#       content = hb_read(domain_path)
+#       if not content:
+#           return None
+#       # last --- block is the most recent entry
+#       blocks = content.strip().split("\n---\n")
+#       return blocks[-1].strip() if blocks else None
+#
+# the commit policy itself could live in .hb or domain config,
+# monadic fallback to default. each domain decides its own rhythm.
+
 # --- monadic config resolution ---
 
 def resolve(domain_path: Path, key: str):
@@ -234,6 +324,9 @@ def bootstrap_domain(domain_path: Path):
                  "GIT_COMMITTER_NAME": "fed", "GIT_COMMITTER_EMAIL": "fed@local"}
         )
 
+    # handbook - seed intent layer for this domain
+    bootstrap_hb(domain_path, domain_path.name)
+
     print(f"bootstrapped: {domain_path.name}")
 
 
@@ -251,6 +344,16 @@ def ensure_default():
         "gw/resolvers": ",".join(GW.DEFAULT_RESOLVERS),
         "gw/mode": "first-match",  # or broadcast
     }
+
+    # seed default handbook if absent
+    default_hb = DEFAULT_DOMAIN / ".hb"
+    if not default_hb.exists():
+        hb_append(
+            DEFAULT_DOMAIN,
+            "domain: default\nintent: ground truth - monadic fallback for all domains\n"
+            "edit this to change what every domain inherits",
+            author="fed"
+        )
 
     for key, value in defaults.items():
         path = DEFAULT_DOMAIN / key
