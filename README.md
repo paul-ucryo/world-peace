@@ -1,4 +1,4 @@
-I think life is like reading a book. The anxiety is the point. You have to have faith that it makes sense at the end. And you have to try and be a character you'd want to read. Cause hell would be having to read a boring book for eternity.
+I think life is like reading a book. The anxiety is the point. You have to have faith that it makes sense at the end. And you have to try and be a character you'd want to read. You gotta fight for your right to party.
 
 # world-peace
 https://www.youtube.com/watch?v=LXzDGn1C308
