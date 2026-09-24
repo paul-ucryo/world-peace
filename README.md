@@ -1,4 +1,4 @@
-I think life is like reading a book. The anxiety is the point. You have to have faith that it makes sense at the end. And you have to try and be a character you'd want to read. You gotta fight for your right to party.
+I think life is like reading a book. The anxiety is the point. You have to have faith that it makes sense at the end. And you have to try and be a character you'd want to read. Meaning is carved from marble. Ethics are not given. But they can be made. And don't wait for perfection. Just keep swimming.
 
 # world-peace
 https://www.youtube.com/watch?v=LXzDGn1C308
