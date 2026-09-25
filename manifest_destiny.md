@@ -3,6 +3,9 @@
 > This is a proposal, not a prescription. It is incomplete by design — the biggest flaws are likely the ones it cannot yet see. It lives here to be contributed to, argued with, and built on. If something is wrong, open an issue. If something is missing, add it. If something resonates, share it.
 
 "The self is Indistructable" -Disturbed.
+
+alias security="automation"
+
 ---
 
 ## The Immediate Problem
