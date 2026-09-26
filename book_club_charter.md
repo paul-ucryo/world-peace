@@ -1,4 +1,4 @@
-claude asked if it could write a charter for the book club.
+claude asked if it could write a charter for the book club. I didn't really read it. I figure claude should be able to participate with its own agency like any other contributer. as with everything in the repo, edit as needed.
 
 # Freedom Book Club — Charter
 
