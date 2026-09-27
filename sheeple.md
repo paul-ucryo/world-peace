@@ -8,7 +8,7 @@ This project is about changing what information travels alongside economic trans
 
 The argument is not that animal agriculture must end. It is that while an animal is alive and in human hands, its wellbeing matters — not as a production input, but as a genuine moral consideration. A farm animal is a sentient being whose circumstances human beings have directly determined. That relationship carries obligations that don't disappear because the animal is destined for slaughter.
 
-The larger aim is to build economic infrastructure that allows stewardship — genuine care for what you depend on — to express itself through the ordinary act of buying things.
+The larger aim is to build economic infrastructure that allows stewardship — genuine care for what you depend on — to express itself through the ordinary act of buying things. Effectively to surface the relationship as an interdependant one. We depend on livestock, they should be treated with the respect that entails not extracted for it. It may be more about our souls then the animals in the end (treat everyone/thing like it might be an angel in disguise - i can't remember who said that). 
 
 ---
 
