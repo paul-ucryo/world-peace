@@ -1,11 +1,13 @@
-I think life is like reading a book. The anxiety is the point. You have to have faith that it makes sense at the end (its sport climbing, not free or solo). And you have to try and be a character you'd want to read. Meaning is carved from marble. Ethics are not given. But they can be made. And don't wait for perfection. Just keep swimming, cause all there ever is is more ocean.
+Ordinary human existence is sufficient ground for extraordinary dignity.
+
+I think life is like reading a book. The anxiety is the point. You have to have faith that it makes sense at the end (its sport climbing, not free or solo). And you have to try and be a character you'd want to read. Meaning is carved from marble. Ethics are not given. But they can be made. And don't wait for perfection. Just keep swimming, cause all there ever is, is more ocean.
 
 # world-peace
 https://www.youtube.com/watch?v=LXzDGn1C308
 
 How can we help each other?
 
-How about a freedom book club? I'm noticing that I've heard more DJT speeches in my life then MLK. I mean to change that.
+How about a freedom book club? I'm noticing that I've heard more DJT speeches in my life then MLK. I mean to change that. (check discussions for the book club).
 
 # Coordination Layer — world-peace domain
 
