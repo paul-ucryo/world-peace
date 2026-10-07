@@ -4,7 +4,7 @@
 
 *A rough idea. A stepping stone. Not a solution.*
 
-*Also not an excuse for letting communities off the hook or thinking that institutional systems are the best intervention. Community centers, churches, hotels, hostels, food networks, work programs, some level couch surfing. People can't just naively jump into the lives of people in crisis, but we do need to start figuring out how to support each other.*
+*Also not an excuse for letting communities off the hook or thinking that institutional systems are the best intervention. Community centers, churches, hotels, hostels, food networks, work programs, some level couch surfing. People can't just naively jump into the lives of people in crisis, but we do need to start figuring out how to support each other. This isn't about the best option for supporting displaced people, this is a statement about treating people with dignity under any circumstances. Because when you disrespect anything, anything at all, a part of that mindset exists toward the people you love when they make you made or disappoint you. Not understanding and respecting everything for what it is eats at you. Keeping that respect is a practice not a destination.*
 
 *Also not actionable by individuals. We need a measure for individuals to help while we wait for policies to shift. We can't wait for an election before taking action.*
 
