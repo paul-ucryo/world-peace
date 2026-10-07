@@ -1,7 +1,9 @@
 # Reframing Corrections as Community Stabilization
 
 *A rough idea. A stepping stone. Not a solution.*
+
 *Also not actionable by individuals. We need a measure for individuals to help while we wait for policies to shift. We can't wait for an election before taking action.*
+
 *Actually, while we can't change laws, funding, or process without institutional support, there is no reason we can't hold the existing system to a higher standard of care and efficacy. Those are things the community can demand without firing anyone or changing a single law, or waiting for a hero politician.*
 
 ---
@@ -12,7 +14,7 @@ Walk through any major American city and the failure is visible. People sleeping
 
 Homelessness is not one problem. It is the convergence of several: a housing market that has priced out the most vulnerable, a mental health infrastructure that was dismantled decades ago and never rebuilt, an addiction crisis without adequate treatment, and an economy increasingly structured to concentrate resources away from the people with the least margin for error.
 
-The corrections system absorbs much of the fallout. Jails and prisons have become the de facto mental health and crisis intervention system of last resort — not by design, but by default. The result is expensive, counterproductive, and honest about nothing.
+The corrections system absorbs much of the fallout. Jails and prisons have become the de facto mental health and crisis intervention system of last resort — not by design, but by default. The result is expensive, counterproductive, and honest about nothing. It also waits for harm before acting.
 
 ---
 
@@ -37,7 +39,7 @@ Reframe corrections facilities — particularly jails — as **community stabili
 
 Same funding. Same staff. Same buildings. Different mission.
 
-**The mission:** This is a system here for you. Society has let you down. Society is responsible for addressing that.
+**The mission:** This is a system here for you. Society has let you down. Society is responsible for addressing that. We are trying to solve problems before they fester into harm or crisis.
 
 This is not a soft framing. It is an honest one. Most people who end up in the corrections system arrived there through a legible chain of failures — failed mental health support, failed housing, failed employment, failed family systems. Pretending otherwise is expensive and produces bad outcomes. Acknowledging it is the beginning of doing something useful.
 
