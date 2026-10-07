@@ -41,7 +41,7 @@ Same funding. Same staff. Same buildings. Different mission.
 
 **The mission:** This is a system here for you. Society has let you down. Society is responsible for addressing that. We are trying to solve problems before they fester into harm or crisis.
 
-This is not a soft framing, soft people refuse to recognize their own faults. It is an honest one. Most people who end up in the corrections system arrived there through a legible chain of failures — failed mental health support, failed housing, failed employment, failed family systems. Pretending otherwise is expensive and produces bad outcomes. Acknowledging it is the beginning of doing something useful.
+This is not a soft framing, soft people outsource their failures; leaders hold themselves to: you are only as strong as your weakest link. It is an honest one. Most people who end up in the corrections system arrived there through a legible chain of failures — failed mental health support, failed housing, failed employment, failed family systems. Pretending otherwise is expensive and produces bad outcomes. Acknowledging it is the beginning of doing something useful.
 
 ---
 
