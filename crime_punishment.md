@@ -107,7 +107,7 @@ A lot. This is a rough idea, not a finished policy. Not expected to actually hap
 - What does genuine coordination with housing, mental health, and employment systems look like in practice?
 - Who holds the institution accountable to its stated purpose?
 
-These are real questions. If you have expertise in corrections, mental health systems, housing policy, architecture, or community organizing — or if you've lived any part of this system — thoughts are welcome.
+These are real questions. If you have expertise in corrections, mental health systems, housing policy, architecture, or community organizing — or if you've lived any part of this system — thoughts are welcome. Most importantly, if you are in a housing or job crisis situation, how can we help? Both structurally and for you right now, what would help? I'm sorry it won't be enough.
 
 ---
 
