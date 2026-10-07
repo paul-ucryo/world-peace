@@ -4,6 +4,8 @@
 
 *A rough idea. A stepping stone. Not a solution.*
 
+*Also not an excuse for letting communities off the hook or thinking that institutional systems are the best intervention. Community centers, churches, hotels, hostels, food networks, work programs, some level couch surfing. People can't just naively jump into the lives of people in crisis, but we do need to start figuring out how to support each other.*
+
 *Also not actionable by individuals. We need a measure for individuals to help while we wait for policies to shift. We can't wait for an election before taking action.*
 
 *Actually, while we can't change laws, funding, or process without institutional support, there is no reason we can't hold the existing system to a higher standard of care and efficacy. Those are things the community can demand without firing anyone or changing a single law, or waiting for a hero politician. Stop chasing homeless people into neighborhoods and alleys where instead of a business's problem its a persons problem and one with less public attention. Outsourcing your problems just makes it quieter and worse and in the face of someone less equipped to handle it.*
