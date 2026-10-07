@@ -1,5 +1,7 @@
 # Reframing Corrections as Community Stabilization
 
+*To summarize: "Injustice anywhere is a threat to justice everywhere."*
+
 *A rough idea. A stepping stone. Not a solution.*
 
 *Also not actionable by individuals. We need a measure for individuals to help while we wait for policies to shift. We can't wait for an election before taking action.*
