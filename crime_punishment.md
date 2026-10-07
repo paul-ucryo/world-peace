@@ -8,7 +8,7 @@
 
 *Also not actionable by individuals. We need a measure for individuals to help while we wait for policies to shift. We can't wait for an election before taking action.*
 
-*Actually, while we can't change laws, funding, or process without institutional support, there is no reason we can't hold the existing system to a higher standard of care and efficacy. Those are things the community can demand without firing anyone or changing a single law, or waiting for a hero politician. Stop chasing homeless people into neighborhoods and alleys where instead of a business's problem its a persons problem and one with less public attention. Outsourcing your problems just makes it quieter and worse and in the face of someone less equipped to handle it.*
+*Actually, while we can't change laws, funding, or process without institutional support, there is no reason we can't hold the existing system to a higher standard of care and efficacy. Those are things the community can demand without firing anyone or changing a single law, or waiting for a hero politician. Stop chasing homeless people into neighborhoods and alleys where instead of a business's problem its a family's problem and one with less public attention. Outsourcing your problems just makes it quieter and worse and in the face of someone less equipped to handle it.*
 
 ---
 
