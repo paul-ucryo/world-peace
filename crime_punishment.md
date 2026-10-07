@@ -47,7 +47,7 @@ This is not a soft framing, soft people outsource their failures; leaders hold t
 
 ## What Changes
 
-**Voluntary entry.** People can come because they need somewhere to go — not only because they were arrested. A person losing their housing, experiencing a mental health crisis, or simply with nowhere to sleep can walk in.
+**Voluntary entry.** People can come because they need somewhere to go — not only because they were arrested. A person losing their housing, experiencing a mental health crisis, or simply with nowhere to sleep can walk in. This is probably the most important missing piece. People need help. Even stable people are in a precarious place and need support. The failure of the system to do anything before obvious harm occurs is criminal negligence.
 
 **Activity and agency as the primary stabilization mechanism.** Before housing stability, before employment, people need something to do tomorrow morning. A reason to get up. A small decision that is theirs to make. Structured activity and genuine agency are the foundation on which everything else rests. This is not a secondary concern — it may be the most important one.
 
