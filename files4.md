@@ -1,7 +1,5 @@
 # ACS: Federated Filesystem Design
 
-Aeris OPS LLCAeris OPS LLCAeris OPS LLCOct 14, 2026 · @paul
-
 ## Overview
 
 ACS (Access Control System) is a federated filesystem built on the principle that coordination and ownership are separate concerns. Every resource is content-addressed, every identity is cryptographic, and trust propagates organically through contribution rather than assignment. The system is designed so that no single actor can dominate coordination regardless of how many physical resources they own.
