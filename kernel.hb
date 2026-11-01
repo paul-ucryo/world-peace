@@ -39,7 +39,7 @@ mount volume -> cat happy | birthday  #A new domain is a volume containing happy
         tax/
         .policy #budget monad
     design/
-        31d.catalog/  #3+1D -> basically cad data. The special definition of a thing.    
+        31d.catalog/  #3+1D -> basically cad data. The spacial definition of a thing.    
           #"." -> join. Meaning you can operate on a directory in one and the action mirrors the other. Maybe its a symlink to a .cad file inside catalog as a first implementation?
         i.catalog/  #imaginary axis, the stuff constructing the thing (usually cam data). 31d tells you what, the i tells you how to produce that from the environment.
                     #I like to think of the imaginary axis of a component as the negative or 'hole' of the component, the set of resources that once resolved would produce the object.
