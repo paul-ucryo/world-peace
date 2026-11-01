@@ -14,9 +14,7 @@ System dysfunction is the gap between need and response — tautologically. The 
 
 ### Why the Current Layer Fails
 
-People raise issues where they get a response — social media. But the response there is more communication, not action. The interaction surface and the solution surface have decoupled completely. Governance loses signal about real needs. People lose any felt sense that raising issues does anything. Both sides atrophy.
-
-The platform optimizes for what it's used for: expressing grievance, not orchestrating resolution. Since it isn't used to close the loop between problem and solution, it doesn't develop that capacity.
+People raise issues where they feel they get a response, currently social media. But the response there is more communication, not action. The communication surface and the action surface have decoupled. Governance loses signal about real needs; action responds to bureaucratic maintenance and if that is poorly tied to request resolution then the system is unable to provide coherent, self consistent responses.
 
 ### The 9P Approach
 
