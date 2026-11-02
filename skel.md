@@ -39,7 +39,7 @@ Thus, 9p's mounting system becomes a programmable network distribution system ov
         @{event}.sh     # Async tick/scheduler. Processes events against current state.
         _.sh            # Render loop handle. Advances rendered state. while _.sh()
         policy.sh
-    .vcs/
+    .vcs/    #VCS is basically a clipboard/buffer catalog
         _/          # Local working frame. Session-specific history.
             {date}/ # Dated snapshots of in-progress work.
         public/     # Promoted, stable, externally addressable state.
