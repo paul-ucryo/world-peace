@@ -50,23 +50,22 @@ Thus, 9p's mounting system becomes a programmable network distribution system ov
     design/
         31d(cad)/        # 3+1D spatial geometry. The thing you want.
         i(cam)/          # Imaginary axis. The set of operations that produce 31d/.
-        cad.catalog/
-        nc.catalog/
-        schema.catalog/
+        schema/          # svg or similar. Wiring schematics, database schema, symulink programs, ..
         src/
-            main.dmc
-            index.html      # Public facing interface. Domain publication surface.
-            session.html    # User portal. Domain as tool.
+            index.html      # Public facing interface. Domain publication surface. publishes to gw.
+            session.html    # User portal. Domain as tool. publishes to gw.
     inventory/      # Instantiated stock. Specific quantities of specific variants.
     budget/         # Transaction records.
+        tax/
         .policy
     media/
-        img/
-        src/
-            home.cctv
-            speaker1
+        img/    #images and video
+        src/    #live data. ch is probably a better name, but i think src is more clear semantically during development then ch.
+            home/front_porch.cctv
+            laptop/speaker1
+            app4/
     share/          # Where public puts data.
-        {session_id}/
+        {session_id}/    #sort of like read/write io but more based on ownership then read/write direction.
     .policy         # Monad definition. All contents run against on write.
 ```
 
