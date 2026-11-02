@@ -16,17 +16,11 @@ If you only voice your opinion once every four years, the system will optimize o
 
 ### The 9P Approach
 
-Own your own problem space. As problems become more complex, it becomes more difficult to manage them. So we need to coordinate more efficient distribution of problem management. 
+Own your own problem space. As problems become more complex, it becomes more difficult to manage them. So we need to coordinate more efficient distribution of problem management. We start by clearly defining your own problem space. This is what you care about, what you are responsible for, what you own, the behavior you attribute to self. We are going to define a domain as a the set of behaviors attributed to that identity. Effectively, we are going to define a type system or encapsulation system over cryptographic identities. Meaning the data object store is ca store. By organizing the ca store into composable identity structures, we get a programmable type system for content addressing, data integrity, and data security.
 
-The coordination layer is modeled on Plan 9's protocol: mountable namespace structures. A microkernel for distributed systems.
+So, ca's create a cryptographic type system over data. This embeds network transport semantics into the data type system. The ca is a domain, is a cryptographic identity. This is the cache storage object of network packet, you just pipe the data directly into a transport header, and its end to end encrypted, with a programmable sharing logic.
 
-Key properties:
-- No single actor owns the namespace
-- Resources and needs are expressed as mountable structures
-- Views are composable — different actors construct their own views of a problem space
-- The coordination surface emerges where views overlap, not from top-down agreement
-
-This is data windowing. The shared reality of a problem is wherever independent views intersect. You don't need consensus on the frame before routing resources toward a need — just overlap.
+Thus, 9p's mounting system becomes a programmable distribution system. 
 
 ### PID Control Over Data Integrity
 
