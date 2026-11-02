@@ -48,8 +48,8 @@ Thus, 9p's mounting system becomes a programmable network distribution system ov
     catalog/        # Namespace catalog. Relational graph of objects and their relationships.
         bcp47/      # Tokenized language dictionary.
     design/
-        31d/        # 3+1D spatial geometry. The thing you want.
-        i/          # Imaginary axis. The set of operations that produce 31d/.
+        31d(cad)/        # 3+1D spatial geometry. The thing you want.
+        i(cam)/          # Imaginary axis. The set of operations that produce 31d/.
         cad.catalog/
         nc.catalog/
         schema.catalog/
