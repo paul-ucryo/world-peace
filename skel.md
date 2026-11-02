@@ -2,11 +2,9 @@
 
 ## Design Intent
 
-Treat oppression and bigotry as dysfunction, then build a system that systematically targets dysfunction, not ideology. There is an implicit assumption that oppression and bigotry are inherently dysfunctional states. Evaluate the efficacy of that claim against everything that follows. The core problem this system addresses is coordination failure. As a proponent of free market, the framework assumes there is a net mark pressure toward fairness and equality. The challenge is to resolve that pressure.
+Treat oppression and bigotry as dysfunction, then build a system that systematically targets dysfunction, not ideology. There is an implicit assumption that oppression and bigotry are inherently dysfunctional states. Evaluate the efficacy of that claim against everything that follows. The core problem this system addresses is coordination failure. As a proponent of free market, the framework assumes there is a net market pressure toward fairness and equality. Information theory can provide us the tools to resolve that pressure into noticeable incentives.
 
-The root cause isn't bad actors. It's entropy. Systems atrophy when they don't exercise critical functions. The current metaverse — the unconscious coordination layer of connected infrastructure — doesn't exercise need-routing, so it reorganizes around what it has: attention. Extractive platforms are the result, not the cause.
-
-The fix is engineering. Build a coordination layer that actually routes needs to resources, preserves prediction capacity at the edges, and measures integrity against reality rather than consensus.
+One critical aspect of the system, is to maintain focus and framing on behavior not identity. Focusing on heroes, leaves you leaderless when they aren't present. Focusing on adversarial identity gives them a narrative hold over your own problem space. It also changes the target. Focusing on identity you change people, focusing on behavior you change behavior. It doesn't matter if you change the behavior by changing people or by changing people, either way the behavior changed. Changing people only changes the behavior if the behavior isn't systemic. 
 
 ### The Mantra: See a Need, Fill a Need
 
