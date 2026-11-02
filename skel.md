@@ -20,39 +20,7 @@ Own your own problem space. As problems become more complex, it becomes more dif
 
 So, ca's create a cryptographic type system over data. This embeds network transport semantics into the data type system. The ca is a domain, is a cryptographic identity. This is the cache storage object of network packet, you just pipe the data directly into a transport header, and its end to end encrypted, with a programmable sharing logic.
 
-Thus, 9p's mounting system becomes a programmable distribution system. 
-
-### PID Control Over Data Integrity
-
-The system uses PID control with data integrity as the setpoint.
-
-**The error signal**: Did the model accurately predict outcome? The delta between predicted and actual outcome is the error. This grounds the system in reality rather than consensus — neither party controls the reference.
-
-**Why this works for coordination**: An adversarial node isn't an enemy in the traditional sense. It's a threat to data integrity. Your only job in evaluating a node is maintaining your own internal coherence. As that migrates out to the environment you interact with, it becomes a measure of how much integrity your environment maintains.
-
-**The setpoint**: System response to need, distributed equally regardless of who holds the need. If the system responds unequally based on who holds a need, that's a detectable error — not a values judgment, a measurable asymmetry. The PID corrects toward equal responsiveness, not equal outcomes.
-
-### Measuring Agency in Social Systems
-
-**Needs are owned by the person who has them.** This is the foundational claim. You can't delegate a personal need because you possess it — it originates in your situation, your body, your life. A monopoly cannot make decisions over a need it doesn't own. Ownership of the need determines who holds the relevant information, and the balance of resolving that need is defined by who possesses the information required to resolve it.
-
-A system that accurately addresses needs without creating local dysfunction necessarily delegates decisions to the target node — because the target node owns the need and therefore owns the information the decision depends on. Neither entity owns the problem space outright. Reality dictates which entity produces the decisions that resolve the need, based on who holds the relevant information.
-
-**Monopoly defined precisely**: A monopoly is the possession of decisions that degrades your capacity to model your own outcomes unilaterally. Not market share as a proxy — market share is the possession of decisions. That's what it means.
-
-The harm of monopoly isn't that it controls prices. A monopoly produces accurate predictions about its own domain — it controls the variables so it can afford to. The harm is that it degrades *your* prediction capacity. Not your ability to predict price or shipping. Your ability to predict: if I go to college will I get a job. If I work for this company will I be able to pay my expenses.
-
-Variables that matter to your life become functions of the monopoly's behavior. Those decisions aren't modeled by anything you have access to. Your prediction capacity atrophies not because you got worse at modeling but because the system you're trying to model became opaque and concentrated.
-
-**When modeling is wrong** — as in monopolistic, authoritarian, and anarchistic systems — dysfunction grows. Most commonly it relocates further into whichever system didn't participate in the decision. The dysfunction doesn't disappear, it migrates to whoever was excluded from the decision that affected them.
-
-**A functional system that doesn't erode prediction capacity isn't a monopoly** — because it delegates decisions back to the node that owns the need. Lending capacity while retaining ownership is still concentration. Possession of ownership of decisions degrades your ability to operate within that space unilaterally.
-
-**The integrity metric applied to social systems**: Does interacting with this node preserve or degrade my capacity to model my own situation? A monopoly that gives accurate prices while making life outcomes unpredictable is degrading integrity in the more important sense.
-
-**Why the coordination layer addresses this**: No single actor owns the namespace, so no single actor can corrupt the reference. Outcome data needs to be as distributed and unownable as the namespace itself — otherwise the feedback loop can be suppressed by whoever controls outcome reporting.
-
-**Web of trust**: Emerges from demonstrated ability to maintain coherent data when working with others. Not asserted upfront, demonstrated through the integrity of what gets published to the stable layer over time.
+Thus, 9p's mounting system becomes a programmable network distribution system over the file system ns.
 
 ---
 
