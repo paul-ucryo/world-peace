@@ -8,7 +8,7 @@ One critical aspect of the system, is to maintain focus and framing on behavior 
 
 ### The Mantra: See a Need, Fill a Need
 
-System dysfunction is the gap between need and response — tautologically. The architecture exists to close that gap.
+We assume that system dysfunction produces friction in a system. That friction represents change potential. If we can map the change potential across system function, we can analyze problem spaces as market value. This process needs to involve moral and cultural values considerations, but the idea is this gives a coherent market pressure toward just systems, it is not a license to optimize for market forces.
 
 ### Why the Current Layer Fails
 
