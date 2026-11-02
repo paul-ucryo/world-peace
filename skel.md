@@ -12,9 +12,11 @@ We assume that system dysfunction produces friction in a system. That friction r
 
 ### Why the Current Layer Fails
 
-If you only voice your opinion once every four years, the system will optimize out your communication channels. This is a behavior in any adaptive system. If you do not use an interaction surface, it is removed. Class structures create a statistical drift around who tends to use which channels. It is not useful to judge sides. The reason being, if we consider problems systemic and we aren't considering identity, then which side the systemic issue you are on is arbitrary. So again, we refocus on behavior, as that is what we want changed.
+If you only voice your opinion once every four years, the system will optimize out your communication channels. This is a behavior in any adaptive system. If you do not use an interaction surface, it is removed. Class structures create a statistical drift around who tends to use which channels. It is not useful to judge sides. The reason being, if we consider problems systemic and we aren't considering identity, then which side the systemic issue you are on is arbitrary. So again, we refocus on behavior, as that is what we want changed. And again, the dysfunction produces a net pressure toward every participants efficacy in their roles, which is a net pressure toward every participant performing better, being more agantic.
 
 ### The 9P Approach
+
+Own your own problem space. As problems become more complex, it becomes more difficult to manage them. So we need to coordinate more efficient distribution of problem management. 
 
 The coordination layer is modeled on Plan 9's protocol: mountable namespace structures. A microkernel for distributed systems.
 
