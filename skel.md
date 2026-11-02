@@ -8,11 +8,11 @@ One critical aspect of the system, is to maintain focus and framing on behavior 
 
 ### The Mantra: See a Need, Fill a Need
 
-We assume that system dysfunction produces friction in a system. That friction represents change potential. If we can map the change potential across system function, we can analyze problem spaces as market value. This process needs to involve moral and cultural values considerations, but the idea is this gives a coherent market pressure toward just systems, it is not a license to optimize for market forces.
+We assume that system dysfunction produces friction in a system. That friction represents change potential. If we can map the change potential across system function, we can analyze problem spaces as market value. The idea is this gives a coherent market pressure toward just systems, it is not a license to optimize for market forces.
 
 ### Why the Current Layer Fails
 
-People raise issues where they feel they get a response, currently social media. But the response there is more communication, not action. The communication surface and the action surface have decoupled. Governance loses signal about real needs; action responds to bureaucratic maintenance and if that is poorly tied to request resolution then the system is unable to provide coherent, self consistent responses.
+If you only voice your opinion once every four years, the system will optimize out your communication channels. This is a behavior in any adaptive system. If you do not use an interaction surface, it is removed. Class structures create a statistical drift around who tends to use which channels. It is not useful to judge sides. The reason being, if we consider problems systemic and we aren't considering identity, then which side the systemic issue you are on is arbitrary. So again, we refocus on behavior, as that is what we want changed.
 
 ### The 9P Approach
 
