@@ -2,7 +2,7 @@
 
 ## Design Intent
 
-The core problem this system addresses is coordination failure. Most global dysfunction — economic, political, social — traces back to a broken coordination layer: systems that don't route needs to resources, that absorb agency rather than distributing it, that optimize for engagement over resolution.
+Treat oppression and bigotry as dysfunction, then build a system that systematically targets dysfunction, not ideology. There is an implicit assumption that oppression and bigotry are inherently dysfunctional states. Evaluate the efficacy of that claim against everything that follows. The core problem this system addresses is coordination failure. As a proponent of free market, the framework assumes there is a net mark pressure toward fairness and equality. The challenge is to resolve that pressure.
 
 The root cause isn't bad actors. It's entropy. Systems atrophy when they don't exercise critical functions. The current metaverse — the unconscious coordination layer of connected infrastructure — doesn't exercise need-routing, so it reorganizes around what it has: attention. Extractive platforms are the result, not the cause.
 
