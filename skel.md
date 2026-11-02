@@ -22,6 +22,10 @@ So, ca's create a cryptographic type system over data. This embeds network trans
 
 Thus, 9p's mounting system becomes a programmable network distribution system over the file system ns. Consider using tar as a header:body structure. So you have tar translators give you a single file handle with public/private sections or generally each tar'd file is a separate ownership rule. So unmounted volumes, (btrfs send and luks volumes) are wrapped in a ca cert via tar. The volume and its mount instructions and authorization travel together.
 
+### The PID Loop
+
+If we are considering dysfunction as the problem, then the workflow becomes a control problem over system consistency. The domain publishes a .policy fail, indicating how the domain handles requests. So a community domain of any group size my declare, "stable health is identity invariant", "education is identity invariant". Now the audit system will track state against that policy. Basically, does the system respond to requests consistantly with those policies? This is not a judgment call. The system's audit reports would need to have a health metric and education metric, but if you have those metrics, you can test them against identity invariance. This does not mean that every node has the same path to health or education, or even equal health or education. What it does do, is say that if the system is not producing behavior that satisfies the the policy rule, it flags an error. That error becomes a domain, a project around which coordination of resources is directed. In particular, the self-consistancy check should give you tracelog. If the policy is not being met, where is the missing dependency. Rigorous attention to resolving missing dependencies should almost automatically produce actionable pressure toward resolving the policy conflict, without needing to understand the issues in their entirety before beginning to make progress. The analysis and the work of solving the problem aren't just parallel efforts, they are the same effort with differentiated output.
+
 ---
 
 ## Directory Structure
