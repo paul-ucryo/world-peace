@@ -47,14 +47,15 @@ Thus, 9p's mounting system becomes a programmable network distribution system ov
     audit/          # QC. Reports for reviewing system integrity.
     catalog/        # Namespace catalog. Relational graph of objects and their relationships.
         bcp47/      # Tokenized language dictionary.
+        ledger/    #Catalog of deliverable goods/services. Things that can be exchanged/"legered"
     design/
-        31d(cad)/        # 3+1D spatial geometry. The thing you want.
-        i(cam)/          # Imaginary axis. The set of operations that produce 31d/.
+        31d(cad).cat/        # 3+1D spatial geometry. The thing you want. This folder has a type where objects in 31d are subclass of catalog
+        i(cam).cat/          # Imaginary axis. The set of operations that produce 31d/. Same subclassing as 31d.
         schema/          # svg or similar. Wiring schematics, database schema, symulink programs, ..
         src/
             index.html      # Public facing interface. Domain publication surface. publishes to gw.
             session.html    # User portal. Domain as tool. publishes to gw.
-    inventory/      # Instantiated stock. Specific quantities of specific variants.
+    inventory.jkk/      # Instantiated stock. Specific quantities of specific variants.
     budget/         # Transaction records.
         tax/
         .policy
