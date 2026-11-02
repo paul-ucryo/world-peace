@@ -20,7 +20,7 @@ Own your own problem space. As problems become more complex, it becomes more dif
 
 So, ca's create a cryptographic type system over data. This embeds network transport semantics into the data type system. The ca is a domain, is a cryptographic identity. This is the cache storage object of network packet, you just pipe the data directly into a transport header, and its end to end encrypted, with a programmable sharing logic.
 
-Thus, 9p's mounting system becomes a programmable network distribution system over the file system ns.
+Thus, 9p's mounting system becomes a programmable network distribution system over the file system ns. Consider using tar as a header:body structure. So you have tar translators give you a single file handle with public/private sections or generally each tar'd file is a separate ownership rule.
 
 ---
 
