@@ -238,6 +238,8 @@ hardware to take responsibility for itself.
 The physical hardware is the trust anchor. Not a user. Not a remote authority.
 The station vouches for what it creates.
 
+The hardware then creates a session ca and delegates to the user. Since the system doesn't own the session, the user CA is empty, another missing dependency graph which is the form the user fills in to define the scope of the ca. Which is a negotiation between what the user fills in and the capabilites map the station grants to the new ca. It then unbinds from the environment and returns control to the parent shell.
+
 ### Trust Chain
 
 ```
