@@ -36,7 +36,7 @@ The monad structure gives a natural definition of complex value, the behavior vs
 
 ## Directory Structure
 
-ATM I'm calling it "ns". I see it as basically "vi" for structured data, a namespace editing environment. CRISPR for the computer.
+ATM I'm calling it "ns". I see it as basically "vi" for structured data, a namespace editing environment. Another view would be a haskell inspired shell.
 
 ```
 :$ ns {domain}
@@ -46,7 +46,7 @@ Would bind {domain} namespace to whatever the shell environment cursor indicates
 ```
 :$ ns {domain0} {domain1} /
 ```
-Would bind namespace {domain0} to the default site and then {domain1} to the same site (a join) and then the "/" or cut operator, which would unbind the join from the system env.
+Would bind namespace {domain0} to the default site and then {domain1} to the same site (a join) and then the "/" or cut operator, which would unbind the join from the system env. Probably structured after haskell runtime. The type system definitions as just functions that define classes as well as the function application. So ns {domain0} {domain1} / is just function application. The type system implements pattern match and guards so you can use partial function application to generate guarded functions as a way to specify valid function ranges and then pattern match operations against guard conditions. So your programing the topology of action conditions. The type system is the catalog of things that need distinct behavior definitions with object definition being "all data that can be reliably bound to this context".
 
 ```
 {domain}/
