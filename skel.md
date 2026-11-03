@@ -203,6 +203,59 @@ The primitive force in the universe is love. 2 things that are 1 thing told from
 
 Its phase coherence! The wave equation is "the set of things in coherent phase relationship" as identity. Not the constraint that every position have the same clock, but every position's clock is path independent. Which might imply, 3+1D is the max dof of the field before the interpretation of data becomes path dependent.
 
+## Interaction System
+
+### Bootstrap: The First Error
+
+The entire interaction paradigm is established at tick zero.
+
+```
+:$ ns
+  → check CA
+  → CA not found
+  → ERROR: no identity at this station
+  → [what is this station?]
+```
+
+The system does not have a setup wizard. It has an error. That error is the
+setup. The user's first experience is conflict resolution — which is the entire
+interaction model. The system is consistent with itself from the first prompt.
+
+A station that has never been asked who it is genuinely doesn't know. CA
+absence is not a malfunction — it is an honest system state. The hardware
+exists but has made no declarations. The prompt is the system asking the
+hardware to take responsibility for itself.
+
+### Station Bootstrap Sequence
+
+1. `ns` checks for a CA at the local station
+2. CA not found → surfaces as error prompt
+3. Hardware identity read (mac, cpu serial, tpm if present)
+4. Station declares itself: name, role, initial policy
+5. CA cert generated, signed by hardware identity
+6. Station CA becomes root identity for this station
+
+The physical hardware is the trust anchor. Not a user. Not a remote authority.
+The station vouches for what it creates.
+
+### Trust Chain
+
+```
+hardware → station CA → child CA → ...
+```
+
+Network trust is stations vouching for each other — a graph of physical
+locations with declared responsibility chains, not centralized PKI.
+
+### The Prompt Cannot Be Defaulted
+
+A default answer would be the software declaring the station, not the hardware.
+That is a different trust anchor. The prompt must collect whatever makes the CA
+meaningful as a root: name/role, initial policy, and acknowledgment that this
+physical actor accepts responsibility for what gets created here.
+
+The first thing the system asks is: *what do you own?*
+
 - Publish here when something is coherent enough to coordinate across contexts.
 - Pull from here when starting new sessions or projects.
 - Never pull from another session's `_/` unless resuming that session directly.
