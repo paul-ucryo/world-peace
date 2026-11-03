@@ -34,6 +34,8 @@ The monad structure gives a natural definition of complex value, the behavior vs
 
 And if we think about the quantum structure not as a special computation but as a change of variable over the computation process, what it is actually doing is quite intuitive. You are moving computation from a linear time based measurment into a positional measurment (expressed as stability). So you could produce a high noise quantum system by biasing your transistors to be stable at the superposition threshold. Then your computation is an integration time over the whole system. The computation is done in the stabality/interference domain not the state transition domain like classical computation. All using consumer hardware, as long as you can access the transistor bias voltages.
 
+This is wild speculation, but is the quantum computer just digital momentum space? Like if you could program the shape of a diffraction grating and read out the interference pattern as the result of the computation? So qubits are logical units of momentum space? And solving encryption is running logic over which patterns to cross correlate, with the quantum system expressing the cross correlation as an interaction of momenta rather then a sequence of position changes.
+
 ---
 
 ## Directory Structure
