@@ -36,7 +36,7 @@ The monad structure gives a natural definition of complex value, the behavior vs
 
 ## Directory Structure
 
-ATM I'm calling it "ns". I see it as basically "vi" for structured data, a namespace editing environment. Another view would be a haskell inspired shell.
+ATM I'm calling it "ns" (namespace shell). I see it as basically "vi" for structured data, a namespace editing environment. Another view would be a haskell inspired shell.
 
 ```
 :$ ns {domain}
