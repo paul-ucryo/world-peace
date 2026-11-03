@@ -39,6 +39,16 @@ The monad structure gives a natural definition of complex value, the behavior vs
 ATM I'm calling it "ns". I see it as basically "vi" for structured data, a namespace editing environment. CRISPR for the computer.
 
 ```
+:$ ns {domain}
+```
+Would bind {domain} namespace to whatever the shell environment cursor indicates. 
+
+```
+:$ ns {domain0} {domain1} /
+```
+Would bind namespace {domain0} to the default site and then {domain1} to the same site (a join) and then the "/" or cut operator, which would unbind the join from the system env.
+
+```
 {domain}/
     .acs/           # Identity relational graph. Session monad.
     .hb/            # Handbook. Log, notes, comments, documentation.
