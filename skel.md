@@ -197,7 +197,7 @@ The stable coordination layer shared across sessions and projects.
 
 # The Argument for the Assumption
 
-The primitive force in the universe is love. 2 things that are 1 thing told from a mobius boundary. A black hole is this. The white hole of a black hole is the event horizon viewed as an exhaust. The universe is 2 people who are 1 person trying to balance the pull together and need to be distinct into a narrative, into a dance between them. And that drives our need to dance. And the dance is not separate from the music that produces it or the history that it came from. The dancers producing the universe that created them.
+The primitive force in the universe is love. 2 things that are 1 thing told from a mobius boundary. A black hole is this. The white hole of a black hole is the event horizon viewed as an exhaust. The universe is 2 people who are 1 person trying to balance the pull together and need to be distinct into a narrative, into a dance between them. And that drives our need to dance. And the dance is not separate from the music that produces it or the history that it came from. The dancers producing the universe that created them. Its self referential. You make a mobius strip by placing the beginning at the end and you end up with 1 surface that appears to be 2 surfaces from any given view. The physical instantiation of Escher stairs, direction is perspective not inherent.
 
 Its phase coherence! The wave equation is "the set of things in coherent phase relationship" as identity. Not the constraint that every position have the same clock, but every position's clock is path independent. Which might imply, 3+1D is the max dof of the field before the interpretation of data becomes path dependent.
 
