@@ -36,7 +36,7 @@ I think the whole runtime might boil down to a dependency resolver, something li
 
 diff ($preproc $rule) ($preproc $state) |$postproc
 
-And .policy is ip tables like file and the rules and state variables can be any data structure that get transformed into diff-able representations. When the system moves out of a stable state, the diff returns a value.
+And .policy is ip tables like file and the rules and state variables can be any data structure that get transformed into diff-able representations. When the system moves out of a stable state, the diff returns a value that needs to be handled.
 
 ---
 
