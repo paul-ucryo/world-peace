@@ -33,8 +33,10 @@ Think of the runtime workflow as a bind. You have the live system with inert mol
 The monad structure gives a natural definition of complex value, the behavior vs the rendered state. This gives you a natural programming language that works across classical and quantum programming. Complex states are effectively just partial function, a mix of stable and unrendered state, where superposition is non deterministic (determinate = 0 of the transform). It doesn't matter if that effect is partial function or particles in superposition, informationally the space is not solved and quantum circuits are "just" superconducting partial functions (maybe constructable from superconducting rf 77 vs 20mK?). This also means the acs should include quantum encryption. Basically a specification for interfermetric proof isolation (how much sampling does your correlator need before it resolves what should be hidden structure and the security model is to isolate the data below that point). The cool thing is, this builds quantum proof isolation into free linux systems that can run on iot devices, home routers, phones. It also makes a quantum and classical programming the same language, so in a distributed system, the program uses whatever backend hardware is available/required. This also means mfa is the paradigm for quantum security, the data must only exist together in 1 place at the decryption surfaces.
 
 I think the whole runtime might boil down to a dependency resolver, something like:
+
 diff ($preproc $rule) ($preproc $state) |$postproc
-and .policy is ip tables like file and the rules and state variables can be any data structure that get transformed into diff-able representations.
+
+And .policy is ip tables like file and the rules and state variables can be any data structure that get transformed into diff-able representations. When the system moves out of a stable state, the diff returns a value.
 
 ---
 
