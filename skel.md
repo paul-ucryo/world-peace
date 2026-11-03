@@ -199,6 +199,8 @@ The stable coordination layer shared across sessions and projects.
 
 The primitive force in the universe is love. 2 things that are 1 thing told from a mobius boundary. A black hole is this. The white hole of a black hole is the event horizon viewed as an exhaust. The universe is 2 people who are 1 person trying to balance the pull together and need to be distinct into a narrative, into a dance between them. And that drives our need to dance. And the dance is not separate from the music that produces it or the history that it came from. The dancers producing the universe that created them.
 
+Its phase coherence! The wave equation is "the set of things in coherent phase relationship" as identity. Every pattern that defines change against the same definition of a tick.
+
 - Publish here when something is coherent enough to coordinate across contexts.
 - Pull from here when starting new sessions or projects.
 - Never pull from another session's `_/` unless resuming that session directly.
