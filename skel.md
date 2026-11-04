@@ -278,6 +278,7 @@ The first thing the system asks is: *what do you own?*
     "#null": "null is nothing. Nothing is the basis set of everything. Literally, nothing is the eigenvector of the full set. So something in isolation is compared to the limit of not everything. This means return null indicates a zero condition guard, all values are possible. A function is an object with a return attribute guarded against null type, or anything."
     "string": {return: ;ascii},
     "#0":"So the process is, run the resolver as: check the value against the guard and pattern match the result against the state machine. The runtime and type system are just conflict resolution definitions running a feedback loop of itself."
+    "#1":"The type system is positional. So the resolver runs against the whole state machine, but types are already defined by their position in the tree, their pattern match includes the scope of the search in the values type definition."
     "":""
 }
 ```
