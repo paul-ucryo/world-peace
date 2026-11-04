@@ -270,6 +270,7 @@ physical actor accepts responsibility for what gets created here.
 
 The first thing the system asks is: *what do you own?*
 
+```
 .policy {
     "#format": "${attr}:${value};${guard}",
     "#format0":"guard is basically inline type designation",
@@ -279,6 +280,7 @@ The first thing the system asks is: *what do you own?*
     "#0":"So the process is, run the resolver as: check the value against the guard and pattern match the result against the state machine. The runtime and type system are just conflict resolution definitions running a feedback loop of itself."
     "":""
 }
+```
 
 
 - Publish here when something is coherent enough to coordinate across contexts.
