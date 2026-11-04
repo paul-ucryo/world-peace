@@ -274,13 +274,16 @@ The first thing the system asks is: *what do you own?*
 .policy {
     "#format": "${attr}:${value};${guard}",
     "#format0":"guard is basically inline type designation",
+    "#format1":"which is the type system. Everything is key: value; guard. If the key has a value, its run through the guard. If it has no value, null runs through the guard -> producing all possible values that satisfy the guard, its a type. So a type is a function monad with a null value and as compared to a partial function produces a response to the value."
+    "bind":;${grep "^$USER:" /etc/passwd|awk -F: '{print $7}'}
+    "_":"/home/paul/test;bind",
     "function":{ return: ;null },
     "#null": "null is nothing. Nothing is the basis set of everything. Literally, nothing is the eigenvector of the full set. So something in isolation is compared to the limit of not everything. This means return null indicates a zero condition guard, all values are possible. A function is an object with a return attribute guarded against null type, or anything."
     "string": {return: ;ascii},
-    "#0":"So the process is, run the resolver as: check the value against the guard and pattern match the result against the state machine. The runtime and type system are just conflict resolution definitions running a feedback loop of itself."
-    "#1":"The type system is positional. So the resolver runs against the whole state machine, but types are already defined by their position in the tree, their pattern match includes the scope of the search in the values type definition."
+    "#0":"So the process is, run the resolver as; check the value against the guard and pattern match the result against the state machine. The class heirarchy enforce local evaluation, so values run against local state because they are a type defined by what was established before in the tree. So its a data type defined by its relative position in the tree. The runtime and type system are just conflict resolution defintions running a feedback loop of itself.",
     "":""
 }
+
 ```
 
 
