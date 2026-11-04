@@ -246,6 +246,12 @@ The station vouches for what it creates.
 
 The hardware then creates a session ca and delegates to the user. Since the system doesn't own the session, the user CA is empty, another missing dependency graph which is the form the user fills in to define the scope of the ca. Which is a negotiation between what the user fills in and the capabilites map the station grants to the new ca. It then unbinds from the environment and returns control to the parent shell.
 
+And the policy file rules start with
+
+.policy: { requires return }
+
+As the system runs on dependency trace, the bottom rung of the dependency trace is "requires return". Meaning the system's primary goal is to respond to requests/input. Every other decision in the system stems from trying optimize over ability to respond.
+
 ### Trust Chain
 
 ```
