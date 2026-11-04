@@ -276,6 +276,7 @@ The first thing the system asks is: *what do you own?*
     "#format0":"guard is basically inline type designation",
     "#format1":"which is the type system. Everything is key: value; guard. If the key has a value, its run through the guard. If it has no value, null runs through the guard -> producing all possible values that satisfy the guard, its a type. So a type is a function monad with a null value and as compared to a partial function produces a response to the value."
     "bind":;${grep "^$USER:" /etc/passwd|awk -F: '{print $7}'}
+    "#bind":"bind is saying, attach this particle field to this transistor field. Bind is the shell translating semantic logic to something that will respond to it."
     "_":"/home/paul/test;bind",
     "function":{ return: ;null },
     "#null": "null is nothing. Nothing is the basis set of everything. Literally, nothing is the eigenvector of the full set. So something in isolation is compared to the limit of not everything. This means return null indicates a zero condition guard, all values are possible. A function is an object with a return attribute guarded against null type, or anything."
