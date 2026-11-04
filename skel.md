@@ -270,6 +270,17 @@ physical actor accepts responsibility for what gets created here.
 
 The first thing the system asks is: *what do you own?*
 
+.policy {
+    "#format": "${attr}:${value};${guard}",
+    "#format0":"guard is basically inline type designation",
+    "function":{ return: ;null },
+    "#null": "null is nothing. Nothing is the basis set of everything. Literally, nothing is the eigenvector of the full set. So something in isolation is compared to the limit of not everything. This means return null indicates a zero condition guard, all values are possible. A function is an object with a return attribute guarded against null type, or anything."
+    "string": {return: ;ascii},
+    "#0":"So the process is, run the resolver as: check the value against the guard and pattern match the result against the state machine. The runtime and type system are just conflict resolution definitions running a feedback loop of itself."
+    "":""
+}
+
+
 - Publish here when something is coherent enough to coordinate across contexts.
 - Pull from here when starting new sessions or projects.
 - Never pull from another session's `_/` unless resuming that session directly.
