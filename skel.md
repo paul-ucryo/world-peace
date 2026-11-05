@@ -277,13 +277,55 @@ The first thing the system asks is: *what do you own?*
     "#format1":"which is the type system. Everything is key: value; guard. If the key has a value, its run through the guard. If it has no value, null runs through the guard -> producing all possible values that satisfy the guard, its a type. So a type is a function monad with a null value and as compared to a partial function produces a response to the value."
     "bind":;${grep "^$USER:" /etc/passwd|awk -F: '{print $7}'}
     "#bind":"bind is saying, attach this particle field to this transistor field. Bind is the shell translating semantic logic to something that will respond to it."
+    "#bind1":"So the shell is the dynamic region of the computation. Everything that 'happens' happens in the shell. Everything outside a shell context is static by definition",
     "_":"/home/paul/test;bind",
     "function":{ return: ;null },
     "#null": "null is nothing. Nothing is the basis set of everything. Literally, nothing is the eigenvector of the full set. So something in isolation is compared to the limit of not everything. This means return null indicates a zero condition guard, all values are possible. A function is an object with a return attribute guarded against null type, or anything."
     "string": {return: ;ascii},
     "#0":"So the process is, run the resolver as; check the value against the guard and pattern match the result against the state machine. The class heirarchy enforce local evaluation, so values run against local state because they are a type defined by what was established before in the tree. So its a data type defined by its relative position in the tree. The runtime and type system are just conflict resolution defintions running a feedback loop of itself.",
-    "":""
+    "":"This is just so i don't have to worry about commas when working with json{
+    "#format": "${attr}:${value};${guard}",
+    "#format0":"guard is basically inline type designation",
+    "#format1":"which is the type system. Everything is key: value; guard. If the key has a value, its run through the guard. If it has no value, null runs through the guard -> producing all possible values that satisfy the guard, its a type. So a type is a function monad with a null value and as compared to a partial function produces a response to the value."
+    "bind":;${grep "^$USER:" /etc/passwd|awk -F: '{print $7}'}
+    "#bind":"bind is saying, attach this particle field to this transistor field. Bind is the shell translating semantic logic to something that will respond to it."
+    "#bind1":"So the shell is the dynamic region of the computation. Everything that 'happens' happens in the shell. Everything outside a shell context is static by definition",
+    "_":"/home/paul/test;bind",
+    "function":{ return: ;null },
+    "#null": "null is nothing. Nothing is the basis set of everything. Literally, nothing is the eigenvector of the full set. So something in isolation is compared to the limit of not everything. This means return null indicates a zero condition guard, all values are possible. A function is an object with a return attribute guarded against null type, or anything."
+    "string": {return: ;ascii},
+    "#0":"So the process is, run the resolver as; check the value against the guard and pattern match the result against the state machine. The class heirarchy enforce local evaluation, so values run against local state because they are a type defined by what was established before in the tree. So its a data type defined by its relative position in the tree. The runtime and type system are just conflict resolution defintions running a feedback loop of itself.",
 }
+
+#This is just a langauge for constructing hamiltonians/constraints
+    constrain graph notation
+    #after iptables: -A CHAIN -p {match} -j {action}
+    #the cpu is a just a gateway for bits
+    name : value : guard    #instead of json
+    py : python : _ #bind python to the shell
+    fn0 : print(ok) : py    #runs print(ok) through py
+    fn1 : console.log(ok) : js  #pattern match
+    fn2 : abc : string
+    fn3 : print : py
+    fn4 : fn2 : fn3
+    fn5 : fn2 fn2 : fn3 . -> fn2 fn3 + fn2 fn3?
+    fn6 : fn2 : fn7 #maybe instead of pattern match the name is just an array of trys until it succeeds.
+    fn6 : fn2 : fn8
+
+    fnx : : 8
+    fnx : : 3 5
+    fny : 5 : fnx
+    _ : : fny #maybe returns 3? because 5 goes into fnx, which runs 5 against 8 fails type check, then runs 5 against 5 which passes the type check and returns 3 prolly not quite right, cause 5 doesn't pass 3 but i feel like thats close.
+" " is how you process value before the function
+fn3 :a : fn2 fn1 -> a threads through the funcitons
+fn3 :a b c:fn2 -> fn2(a) fn2(b) fn2(c)
+
+"." is how you process funciton before value (monad)
+fn3 : a : fn2.fn1 -> fn2 wraps fn1 before a
+fn3 : a.b.c : fn2 -> fn2.(a(b(c)))
+
+fn3 : a : _ fn2 -> bind the result of fn2(a) to execution, which the _ shell would pattern match the return value to a named node
+
 
 ```
 
