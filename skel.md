@@ -348,10 +348,13 @@ So, if we start with an environment router. Basically treat this as a script rou
 
 #() -> grouping
 #{} -> evaluate here
+#{:value:guard} -> lambda
+#{a:value:guard} -> local name
 #[] -> calculate size
 #" " -> application
-#"." -> map/compose
+#"." -> composition/map
 #"|" -> non-greedy
+#"/" -> splits a namespace into a left/right tuple
 #addr : val : guard
 err : _ :   #Pass error condition to env
 #test :value:err|string
@@ -376,6 +379,23 @@ usr0 : :usr #defines usr0 as a usr type.
 #adding err. to the guard makes it fall through to err which instantiates it by returning unresolved dependencies to the user.
 usr1 : :err.usr #null value fails usr and calls err, which runs through the usr error monad which will prompt for missing fields to construct.
 #so you can have different error handling systems at once. err.type, warn.type .etc. That might be how map works.
+
+ca.k: :[].256
+ca.v: :[].256
+err.ca.k: openssl genpkey -algorithm ed25519 :_
+err.ca.v: {::err.ca.k} |openssl pkey -pubout :_
+err.share: btrfs subv create {:_.label:_} :_
+_: {:echo $USER:_} :label
+_: {:echo $HOME:_}/.local/acs/_.ca :fs.ca
+_: {:echo $HOME:_} :fs.share #session volume mount
+_: {::_} :sn #active session/branch, which append only log you are attached to.
+_: {::_} :sn.ph #phase/commit
+_.sn: {:date:_} : _.backup.daily
+
+ns.sh -> ns monad over bash script
+_ : echo $SHELL : bash
+_.ca : {echo $USER:_} : ca.new|{$NS:_} -> active ca context
+#run $user through active shell and guard based on $NS in active shell. No ca present creates a new one.
 
 ```
 
