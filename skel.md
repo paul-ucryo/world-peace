@@ -261,6 +261,11 @@ hardware → station CA → child CA → ...
 Network trust is stations vouching for each other — a graph of physical
 locations with declared responsibility chains, not centralized PKI.
 
+- Publish here when something is coherent enough to coordinate across contexts.
+- Pull from here when starting new sessions or projects.
+- Never pull from another session's `_/` unless resuming that session directly.
+- Integrity of what gets published builds the web of trust over time.
+
 ### The Prompt Cannot Be Defaulted
 
 A default answer would be the software declaring the station, not the hardware.
@@ -362,8 +367,3 @@ domain : : ca.gw._ #gw._ -> gateway cursor/io handle
 
 ```
 
-
-- Publish here when something is coherent enough to coordinate across contexts.
-- Pull from here when starting new sessions or projects.
-- Never pull from another session's `_/` unless resuming that session directly.
-- Integrity of what gets published builds the web of trust over time.
