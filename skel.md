@@ -342,13 +342,20 @@ I think this is close the haskell runtime. I wonder if i could write a haskell t
 
 So, if we start with an environment router. Basically treat this as a script router, vi for the live system.
 
-```
+``` 
 
 ```
+
 
 #() -> grouping
 #{} -> evaluate here
 #[] -> calculate size
+#" " -> application
+#"." -> composition
+#"|" -> non-greedy
+#addr : val : guard
+err : _ :   #Pass error condition to env
+#test :value:err|string
 spec : : fs #this file syntax -> the spectra is the specification
 spec.rule : : _ ns # a closure in the rule table/readline (pionter to the grammer checker). Means run all lines through ns (called by _, the active shell).
 [] : : _ size #size operator
@@ -364,6 +371,9 @@ domain : : ca.gw._ #gw._ -> gateway cursor/io handle
 {dom0} : proj1 : ca.gw.label
 {dom0} : 555 555 5555 : main.ca.gw.pstn #main is a role monad wrapping the ca.
 {dom0} : test@example.com : ca.gw.email
+ca.label : :err| #i think this is the syntax for all valids states, or pass to err handler
+
+
 
 ```
 
