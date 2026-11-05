@@ -305,6 +305,8 @@ The first thing the system asks is: *what do you own?*
     #address : state : behavior -> 3 dof of any information system
     #effectAddr : state : cpu instruction   -> purity is just keeping that legible, what happens in the cpu and where that gets written to.
     #Monad -> biderectional transform between cpu and user logic domains. Reconfiguring the 'timing' between structures for each domain. 
+    #3+1D is 3 dof + phase lock
+    #3+1D is the constraint that the 'bit' meaning is path independent, the value of the bit doesn't depend on how you arrived at it.
     py : python : _ #bind python to the shell
     fn0 : print(ok) : py    #runs print(ok) through py
     fn1 : console.log(ok) : js  #pattern match
@@ -331,9 +333,12 @@ fn3 : a : _ fn2 -> bind the result of fn2(a) to execution, which the _ shell wou
 
 {} -> lambda fn4 : a {value:guard} :guard
 
-I think this is close to the haskell runtime. I wonder if i could write a haskell translator? It basically is haskell with the namespace and the bind logic tied together.
+I think this is close the haskell runtime. I wonder if i could write a haskell translator? It basically is haskell with the namespace and the bind logic tied together.
 
 So, if we start with an environment router. Basically treat this as a script router, vi for the live system.
+
+spec -> the spectra is the specification
+
 
 ```
 
