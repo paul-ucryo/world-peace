@@ -371,7 +371,7 @@ domain : : ca.gw._ #gw._ -> gateway cursor/io handle
 {dom0} : proj1 : ca.gw.label
 {dom0} : 555 555 5555 : main.ca.gw.pstn #main is a role monad wrapping the ca.
 {dom0} : test@example.com : ca.gw.email
-ca.label : :err| #i think this is the syntax for all valids states, or pass to err handler
+ca.label : :err.ca.label| #i think this is the syntax for all valid states, or pass to ca type wrapped in the error context
 
 
 
