@@ -326,6 +326,9 @@ fn3 : a.b.c : fn2 -> fn2.(a(b(c)))
 
 fn3 : a : _ fn2 -> bind the result of fn2(a) to execution, which the _ shell would pattern match the return value to a named node
 
+{} -> lambda fn4 : a {value:guard} :guard
+
+I think this is close the haskell runtime. I wonder if i could write a haskell translator? It basically is haskell with the namespace and the bind logic tied together.
 
 ```
 
