@@ -337,7 +337,9 @@ I think this is close the haskell runtime. I wonder if i could write a haskell t
 
 So, if we start with an environment router. Basically treat this as a script router, vi for the live system.
 
+```
 
+```
 
 #() -> grouping
 #{} -> evaluate here
@@ -357,9 +359,6 @@ domain : : ca.gw._ #gw._ -> gateway cursor/io handle
 {dom0} : proj1 : ca.gw.label
 {dom0} : 555 555 5555 : main.ca.gw.pstn #main is a role monad wrapping the ca.
 {dom0} : test@example.com : ca.gw.email
-
-
-
 
 ```
 
