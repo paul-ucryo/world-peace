@@ -346,12 +346,11 @@ So, if we start with an environment router. Basically treat this as a script rou
 
 ```
 
-
 #() -> grouping
 #{} -> evaluate here
 #[] -> calculate size
 #" " -> application
-#"." -> composition
+#"." -> map/compose
 #"|" -> non-greedy
 #addr : val : guard
 err : _ :   #Pass error condition to env
@@ -371,9 +370,12 @@ domain : : ca.gw._ #gw._ -> gateway cursor/io handle
 {dom0} : proj1 : ca.gw.label
 {dom0} : 555 555 5555 : main.ca.gw.pstn #main is a role monad wrapping the ca.
 {dom0} : test@example.com : ca.gw.email
-ca.label : :err.ca.label| #i think this is the syntax for all valid states, or pass to ca type wrapped in the error context
-
-
+ca.label : :err.ca.label|string #all valid states otherwise pass to the ca.label type composed with err monad
+usr : :err|domain   #defines usr as a domain type
+usr0 : :usr #defines usr0 as a usr type. 
+#adding err. to the guard makes it fall through to err which instantiates it by returning unresolved dependencies to the user.
+usr1 : :err.usr #null value fails usr and calls err, which runs through the usr error monad which will prompt for missing fields to construct.
+#so you can have different error handling systems at once. err.type, warn.type .etc. That might be how map works.
 
 ```
 
