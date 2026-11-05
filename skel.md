@@ -302,6 +302,9 @@ The first thing the system asks is: *what do you own?*
     #after iptables: -A CHAIN -p {match} -j {action}
     #the cpu is a just a gateway for bits
     name : value : guard    #instead of json
+    #address : state : behavior -> 3 dof of any information system
+    #effectAddr : state : cpu instruction   -> purity is just keeping that legible, what happens in the cpu and where that gets written to.
+    #Monad -> biderectional transform between cpu and user logic domains. Reconfiguring the 'timing' between structures for each domain. 
     py : python : _ #bind python to the shell
     fn0 : print(ok) : py    #runs print(ok) through py
     fn1 : console.log(ok) : js  #pattern match
@@ -316,11 +319,11 @@ The first thing the system asks is: *what do you own?*
     fnx : : 3 5
     fny : 5 : fnx
     _ : : fny #maybe returns 3? because 5 goes into fnx, which runs 5 against 8 fails type check, then runs 5 against 5 which passes the type check and returns 3 prolly not quite right, cause 5 doesn't pass 3 but i feel like thats close.
-" " is how you process value before the function
+" " -> function application
 fn3 :a : fn2 fn1 -> a threads through the funcitons
 fn3 :a b c:fn2 -> fn2(a) fn2(b) fn2(c)
 
-"." is how you process funciton before value (monad)
+"." -> function composition
 fn3 : a : fn2.fn1 -> fn2 wraps fn1 before a
 fn3 : a.b.c : fn2 -> fn2.(a(b(c)))
 
@@ -328,7 +331,9 @@ fn3 : a : _ fn2 -> bind the result of fn2(a) to execution, which the _ shell wou
 
 {} -> lambda fn4 : a {value:guard} :guard
 
-I think this is close the haskell runtime. I wonder if i could write a haskell translator? It basically is haskell with the namespace and the bind logic tied together.
+I think this is close to the haskell runtime. I wonder if i could write a haskell translator? It basically is haskell with the namespace and the bind logic tied together.
+
+So, if we start with an environment router. Basically treat this as a script router, vi for the live system.
 
 ```
 
