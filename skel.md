@@ -390,7 +390,10 @@ _: {:echo $HOME:_}/.local/acs/_.ca :fs.ca
 _: {:echo $HOME:_} :fs.share #session volume mount
 _: {::_} :sn #active session/branch, which append only log you are attached to.
 _: {::_} :sn.ph #phase/commit
+_.sn.ph: {} :_.sn.cow
 _.sn: {:date:_} : _.backup.daily
+
+#{id}.{commit} and {id.commit} are the same thing at different phases. so you can save in whichever form makes sense for processing without losing the meaning of what it is.
 
 ns.sh -> ns monad over bash script
 _ : echo $SHELL : bash
