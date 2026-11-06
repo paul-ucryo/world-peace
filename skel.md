@@ -380,18 +380,24 @@ usr0 : :usr #defines usr0 as a usr type.
 usr1 : :err.usr #null value fails usr and calls err, which runs through the usr error monad which will prompt for missing fields to construct.
 #so you can have different error handling systems at once. err.type, warn.type .etc. That might be how map works.
 
+
 ca.k: :[].256
 ca.v: :[].256
 err.ca.k: openssl genpkey -algorithm ed25519 :_
 err.ca.v: {::err.ca.k} |openssl pkey -pubout :_
 err.share: btrfs subv create {:_.label:_} :_
-_: {:echo $USER:_} :label
+#When creating a person ca, the default label should be pinky
+#When creating a project ca, the default label should be world peace
+_.gw: {:echo $USER:_} :label #gw is contact surfaces catalog. Basically protocal routing table
+{:echo {:_.label:json} }
 _: {:echo $HOME:_}/.local/acs/_.ca :fs.ca
-_: {:echo $HOME:_} :fs.share #session volume mount
-_: {::_} :sn #active session/branch, which append only log you are attached to.
-_: {::_} :sn.ph #phase/commit
-_.sn.ph: {} :_.sn.cow
-_.sn: {:date:_} : _.backup.daily
+_: {:echo $HOME:_}/.share/{:_.ssn.label:_.ca.[sha256].64} :fs.share #session volume mount
+_: {:echo $HOME:_}/.vcs/{:_.ssn.label:_.ca.[sha256].64} :fs.vcs #session volume control system
+#vcs -> 0-main,1-diff,2-scratch,.. makes volume vector workspaces
+_: {::_} :ssn #active session/branch, which append only log you are attached to.
+_: {::_} :ssn.ph #phase/commit
+_.ssn.ph: {{:echo $HOME:_}:/} :_.ssn.cow
+_.ssn: {:date:_} : _.backup.daily
 
 #{id}.{commit} and {id.commit} are the same thing at different phases. so you can save in whichever form makes sense for processing without losing the meaning of what it is.
 
@@ -399,6 +405,7 @@ ns.sh -> ns monad over bash script
 _ : echo $SHELL : bash
 _.ca : {echo $USER:_} : ca.new|{$NS:_} -> active ca context
 #run $user through active shell and guard based on $NS in active shell. No ca present creates a new one.
+
 
 ```
 
