@@ -334,6 +334,10 @@ fn3 :a b c:fn2 -> fn2(a) fn2(b) fn2(c)
 fn3 : a : fn2.fn1 -> fn2 wraps fn1 before a
 fn3 : a.b.c : fn2 -> fn2.(a(b(c)))
 
+"|" -> or
+fn3 : a : fn2|fn1 -> fn2 runs if 1 fails
+fn3 : a|b|c : fn2 -> runs util pass
+
 fn3 : a : _ fn2 -> bind the result of fn2(a) to execution, which the _ shell would pattern match the return value to a named node
 
 {} -> lambda fn4 : a {value:guard} :guard
@@ -342,9 +346,6 @@ I think this is close the haskell runtime. I wonder if i could write a haskell t
 
 So, if we start with an environment router. Basically treat this as a script router, vi for the live system.
 
-``` 
-
-```
 
 #() -> grouping
 #{} -> evaluate here
@@ -354,7 +355,9 @@ So, if we start with an environment router. Basically treat this as a script rou
 #" " -> application
 #"." -> composition/map
 #"|" -> non-greedy
-#"/" -> splits a namespace into a left/right tuple
+#"/" -> left partition
+#"\" -> right partition
+#{:match stuff:/|\} -> left-/|right-\ side of match
 #addr : val : guard
 err : _ :   #Pass error condition to env
 #test :value:err|string
@@ -380,7 +383,7 @@ usr0 : :usr #defines usr0 as a usr type.
 usr1 : :err.usr #null value fails usr and calls err, which runs through the usr error monad which will prompt for missing fields to construct.
 #so you can have different error handling systems at once. err.type, warn.type .etc. That might be how map works.
 
-
+##Kernel
 ca.k: :[].256
 ca.v: :[].256
 err.ca.k: openssl genpkey -algorithm ed25519 :_
@@ -398,6 +401,47 @@ _: {::_} :ssn #active session/branch, which append only log you are attached to.
 _: {::_} :ssn.ph #phase/commit
 _.ssn.ph: {{:echo $HOME:_}:/} :_.ssn.cow
 _.ssn: {:date:_} : _.backup.daily
+_.pulse: : #event handler. Fuse driver config mostly
+
+export SHELL = {:_:app.label}
+export SESSION = {[:_:sha.ns.address].16}
+export USER = {:_:ca.label}
+export HOME = {:_:_.share}.{[:_:sha.ns.address].16}
+export PS1 = {:_:_.msg._}
+export PATH = {:_:_.ns}
+#exec $SHELL
+#done(ctrl-d) unbinds the shell
+#ns just configures an env. the done command (eof) returns to the parent context.
+#SESSION is list of session targets. ns label, forks whatever matches label, (no match goes to fallback/default "_"). SESSION paramter gives is what associates the context with a keyset. The idea being if, _ doesn't have a ca defined, you ns {label} and it adds the label and drops you into a context with no ca. So it prompts for one. you get the same thing calling ns with no input. it asks for a login, basically session label and password. if you give it a new label it creates a new session, a new ca. Otherwise it binds to whatever you login to.
+#once logged in, the system's "welcome" message is to run a session home screen parser over the shell context. Makes the shell an interactive window. basically processes change the system state and then the shell is running a windowing event loop, which in the terminal is basically just ls $HOME |summary
+#PS1 is a messaging surface. It tells you user where it is, but it also tells apps what the user sees the context to be. It may even want unrendered data present for apps.
+#The handbook structure (.hb/) holds the manuals, journal entries, documentation stuff. If ns doesn't see any supporting structure, it assumes a first time use. So when it first runs, PS1 says, "hello what your name". "Welcome to namespace shell, {name}". Type hb for help/handbook at any time. Would you like to secure your session with a password?
+#Then .policy files are just a set of rules (programable types) that the consistancy checker process against the system state. That check produces something like a patch file, that the system runs, completing the autonomous things and writting everything else to messaging channels that the user interacts with. 
+
+##media
+_.media.img: : #stateful img data (videos etc)
+_.media.src.speakers: : #channels
+_.media.src.cctv: :
+_.media.src.app.ssn: :
+
+##Project
+_.gw.home: :
+_.gw.work: :
+_.gw.proj-x: :
+_.gw.ypages: :
+_.gw.fednet: :
+_.audit: :
+_.ns.bcp47: :
+_.ns.{domain.label}.{[sha.ssn].16}: :
+_.inventory: :
+_.budget.acct: :
+_.budget.tax: :
+_.design.31d: : #cad data, scene graphs, model meshes
+_.design.im: : #imaginary axis, build instruction, cam files. 31d teslls you what and im tells you how. The analogy is31d is the thing and im is the hole it occupies.
+_.design.schema: : #svg programs like symlink
+_.design.src.index.html: : #public gateway
+_.design.src.session.html: : #login session
+
 
 #{id}.{commit} and {id.commit} are the same thing at different phases. so you can save in whichever form makes sense for processing without losing the meaning of what it is.
 
@@ -405,6 +449,8 @@ ns.sh -> ns monad over bash script
 _ : echo $SHELL : bash
 _.ca : {echo $USER:_} : ca.new|{$NS:_} -> active ca context
 #run $user through active shell and guard based on $NS in active shell. No ca present creates a new one.
+
+#so, you run ns it changes the prompt to login:, you type in a pw name. if name matches ca.label it processes pw. Otherwise it registers pw name asking for any missing depe
 
 
 ```
