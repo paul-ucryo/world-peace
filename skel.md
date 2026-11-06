@@ -417,7 +417,7 @@ export PATH = {:_:_.ns}
 #PS1 is a messaging surface. It tells you user where it is, but it also tells apps what the user sees the context to be. It may even want unrendered data present for apps.
 #The handbook structure (.hb/) holds the manuals, journal entries, documentation stuff. If ns doesn't see any supporting structure, it assumes a first time use. So when it first runs, PS1 says, "hello what your name". "Welcome to namespace shell, {name}". Type hb for help/handbook at any time. Would you like to secure your session with a password?
 #Then .policy files are just a set of rules (programable types) that the consistancy checker process against the system state. That check produces something like a patch file, that the system runs, completing the autonomous things and writting everything else to messaging channels that the user interacts with.
-#which is all ns is. Its not a new shell, its a shell environment specification with a .policy engine.
+#which is all ns is. Its not a new shell, its a shell environment specification with a .policy enforcement engine.
 
 ##media
 _.media.img: : #stateful img data (videos etc)
